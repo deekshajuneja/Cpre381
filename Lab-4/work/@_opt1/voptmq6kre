@@ -1,0 +1,101 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/averma/cpre381/Lab-04
+T_opt
+Z1 VAmTm[DOnhRGA2`YISA5BI0
+Z2 04 4 8 work ex16 dataflow 1
+Z3 =1--54307833-95360-676b
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OL;O;6.5c;42
+T_opt1
+Z7 VQFa8hbi4iJSbl2WM<4VmN1
+Z8 04 4 3 work ex16 sim 1
+Z9 =1--543079b5-6fa29-6ab7
+R4
+Z10 n@_opt1
+R6
+Eex16
+Z11 w1412463012
+Z12 DPx17 __model_tech/ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z13 DPx17 __model_tech/ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z14 DPx17 __model_tech/ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z15 DPx17 __model_tech/ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+32
+Z16 8ex16.vhd
+Z17 Fex16.vhd
+l0
+L8
+Z18 VNUH5YeZUOCz_S`z3[G]gL0
+Z19 OL;C;6.5c;42
+Z20 tExplicit 1
+Z21 !s100 YIk>j_A56G@9TWA7;`XCB0
+Asim
+R12
+R13
+R14
+R15
+DEx32 /home/averma/cpre381/Lab-04/work 4 ex16 0 22 NUH5YeZUOCz_S`z3[G]gL0
+32
+Mx4 17 __model_tech/ieee 11 numeric_std
+Mx3 17 __model_tech/ieee 14 std_logic_1164
+Mx2 17 __model_tech/ieee 18 std_logic_unsigned
+Mx1 17 __model_tech/ieee 15 std_logic_arith
+l15
+L12
+Z22 VE_W0c_=n_gDdmEazA@a_F0
+R19
+R20
+Z23 !s100 3im8SVmP?Q[hma42o?mBz0
+Adataflow
+Z24 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z25 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z26 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z27 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z28 DEx4 work 4 ex16 0 22 NUH5YeZUOCz_S`z3[G]gL0
+l15
+L12
+Z29 Vm]Zk;HFdIhl4a`Szn^9O;2
+R19
+32
+Z30 Mx4 4 ieee 11 numeric_std
+Z31 Mx3 4 ieee 14 std_logic_1164
+Z32 Mx2 4 ieee 18 std_logic_unsigned
+Z33 Mx1 4 ieee 15 std_logic_arith
+R20
+Z34 w1412462116
+Z35 !s100 6FA1QW3;[embUjQIHadLR0
+Emem
+Z36 w1313510406
+Z37 DPx3 std 6 textio 0 22 m2KQDRRhmF833<<DjYdL70
+R25
+R24
+R26
+Z38 8mem.vhd
+Z39 Fmem.vhd
+l0
+L24
+Z40 VK46JJEjTXODJoP28H]5[O3
+R19
+32
+R20
+Z41 !s100 ezEVimmkmL`[3UZOl5F8c2
+Abehavioral
+R37
+R25
+R24
+R26
+Z42 DEx4 work 3 mem 0 22 K46JJEjTXODJoP28H]5[O3
+l477
+L35
+Z43 VQBKleJ`0I5;]XB:VmP_Ab2
+R19
+32
+Z44 Mx4 4 ieee 14 std_logic_1164
+Z45 Mx3 4 ieee 15 std_logic_arith
+R32
+Z46 Mx1 3 std 6 textio
+R20
+Z47 !s100 a7fl:]7<GH3d:R3?Fga5E0

@@ -1,0 +1,251 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/averma/cpre381/Lab-04
+T_opt
+Z1 VC`6fc0fW:1A[MoV^W>RON3
+Z2 04 7 9 work tb_dmem behaviour 1
+Z3 =1--543af17e-cfe4e-4376
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OL;O;6.5c;42
+T_opt1
+Z7 VQFa8hbi4iJSbl2WM<4VmN1
+Z8 04 4 3 work ex16 sim 1
+Z9 =1--543079b5-6fa29-6ab7
+R4
+Z10 n@_opt1
+R6
+T_opt2
+Z11 VSnD0oKHG4bk=72N63k]Rk3
+Z12 04 4 3 work ex16 rtl 1
+Z13 =1--54383ab9-d701-1ee
+R4
+Z14 n@_opt2
+R6
+Parray_port
+Z15 DPx17 __model_tech/ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+Z16 Mx1 17 __model_tech/ieee 14 std_logic_1164
+Z17 w1411611491
+Z18 8array_port.vhd
+Z19 Farray_port.vhd
+l0
+L4
+Z20 V@SYB[iV<M[>@E_j>@jY;i2
+Z21 OL;C;6.5c;42
+Z22 o-work work
+Z23 tExplicit 1
+Z24 !s100 i4Z@Edm=89oPiI?gPVUaG0
+Eex16
+Z25 w1412972395
+Z26 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z27 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z28 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z29 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z30 8ex16.vhd
+Z31 Fex16.vhd
+l0
+L8
+Z32 V_?DA80Z?8cWzWnejfmnc@3
+R21
+32
+R22
+R23
+Z33 !s100 Ria2UBeWZ6M:?h5hGhFhe3
+Abehaviour
+R26
+R27
+R28
+R29
+Z34 DEx4 work 4 ex16 0 22 _?DA80Z?8cWzWnejfmnc@3
+l16
+L14
+Z35 V:?9A6z9nZZUG]30I:FX?o1
+Z36 !s100 RPmU=cT^ZB?bT`_5QCGe=3
+R21
+32
+Z37 Mx4 4 ieee 11 numeric_std
+Z38 Mx3 4 ieee 14 std_logic_1164
+Z39 Mx2 4 ieee 18 std_logic_unsigned
+Z40 Mx1 4 ieee 15 std_logic_arith
+R22
+R23
+Artl
+R26
+R27
+R28
+R29
+Z41 DEx4 work 4 ex16 0 22 gMhzoj2jCiW1LnGeZR6Qz3
+l16
+L14
+Z42 Vh]eCllJoS]oleC]k50g5A1
+R21
+32
+R37
+R38
+R39
+R40
+R22
+R23
+Z43 w1412970773
+Z44 !s100 ?T:dDV^SGH``9DMo:CVQK0
+Asim
+R26
+R27
+R28
+R29
+Z45 DEx4 work 4 ex16 0 22 NUH5YeZUOCz_S`z3[G]gL0
+l15
+L12
+Z46 VE_W0c_=n_gDdmEazA@a_F0
+R21
+32
+R37
+R38
+R39
+R40
+R23
+Z47 w1412463012
+Z48 !s100 3im8SVmP?Q[hma42o?mBz0
+Adataflow
+R26
+R27
+R28
+R29
+R45
+l15
+L12
+Z49 Vm]Zk;HFdIhl4a`Szn^9O;2
+R21
+32
+R37
+R38
+R39
+R40
+R23
+Z50 w1412462116
+Z51 !s100 6FA1QW3;[embUjQIHadLR0
+Eex32
+Z52 w1412972190
+R26
+R27
+R28
+R29
+Z53 8ex32.vhd
+Z54 Fex32.vhd
+l0
+L8
+Z55 VNG@NgkCE_5Z5SHF2GnD7D3
+R21
+32
+R22
+R23
+Z56 !s100 zJJll_lPYG27TNODaC^lK2
+Abehaviour
+R26
+R27
+R28
+R29
+Z57 DEx4 work 4 ex32 0 22 NG@NgkCE_5Z5SHF2GnD7D3
+l16
+L14
+Z58 VbzOl7:UNzA`70CS0@H2=D2
+Z59 !s100 ;2?<=`16M[IY>jGNW;2Ed0
+R21
+32
+R37
+R38
+R39
+R40
+R22
+R23
+Adataflow
+R26
+R27
+R28
+R29
+Z60 DEx4 work 4 ex32 0 22 RKmd_lzY`[NH[^lO_:@Th1
+l15
+L13
+Z61 VPHRbfc5?ncCQ84j6mglTh3
+R21
+32
+R37
+R38
+R39
+R40
+R22
+R23
+Z62 w1412463773
+Z63 !s100 _kSg@jBlcSkIzQ2FoK2o=3
+Emem
+Z64 w1412973641
+Z65 DPx3 std 6 textio 0 22 m2KQDRRhmF833<<DjYdL70
+R27
+R26
+R28
+Z66 8mem.vhd
+Z67 Fmem.vhd
+l0
+L24
+Z68 VTS]NoHc=Z:Olk[ZC;R@fe3
+R21
+32
+R22
+R23
+Z69 !s100 3?l6^T@hPkU`Z]J7UYEI80
+Abehavioral
+Z70 DPx16 __model_tech/std 6 textio 0 22 m2KQDRRhmF833<<DjYdL70
+Z71 DPx17 __model_tech/ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z72 DPx17 __model_tech/ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+R15
+Z73 DEx32 /home/averma/cpre381/Lab-04/work 3 mem 0 22 TS]NoHc=Z:Olk[ZC;R@fe3
+32
+Z74 Mx4 17 __model_tech/ieee 14 std_logic_1164
+Z75 Mx3 17 __model_tech/ieee 15 std_logic_arith
+Z76 Mx2 17 __model_tech/ieee 18 std_logic_unsigned
+Z77 Mx1 16 __model_tech/std 6 textio
+l477
+L35
+Z78 V60RKQ_:f9IG6VT^TQg66S1
+R21
+R22
+R23
+Z79 !s100 a7fl:]7<GH3d:R3?Fga5E0
+Etb_dmem
+Z80 w1413149032
+R70
+Z81 DPx32 /home/averma/cpre381/Lab-04/work 10 array_port 0 22 @SYB[iV<M[>@E_j>@jY;i2
+Z82 DPx17 __model_tech/ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+R15
+32
+Z83 8tb_dmem.vhd
+Z84 Ftb_dmem.vhd
+l0
+L10
+Z85 VE<^gTLXCa[HAh3>]W<_Pj2
+R21
+R22
+R23
+Z86 !s100 ^gabKXhlZnmK2?AWUHhnQ2
+Abehaviour
+R73
+R70
+R81
+R82
+R15
+Z87 DEx32 /home/averma/cpre381/Lab-04/work 7 tb_dmem 0 22 E<^gTLXCa[HAh3>]W<_Pj2
+32
+R74
+Z88 Mx3 17 __model_tech/ieee 11 numeric_std
+Z89 Mx2 32 /home/averma/cpre381/Lab-04/work 10 array_port
+R77
+l36
+L15
+Z90 V]Id>L;h5DokIg;Y;:6A_^3
+R21
+R22
+R23
+Z91 !s100 WilLCb^<_3aZH[4Z6IfH41

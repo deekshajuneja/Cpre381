@@ -1,0 +1,114 @@
+# //  ModelSim SE-64 6.5c Aug 27 2009 Linux 2.6.32-504.1.3.el6.x86_64
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+vlib work
+# ** Warning: (vlib-34) Library already exists at "work".
+vcom -work work cpu.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package mips32
+# -- Compiling entity cpu
+# -- Compiling architecture structure of cpu
+# ** Error: cpu.vhd(246): near ",": expecting "IDENTIFIER"
+# ** Error: cpu.vhd(281): (vcom-1136) Unknown identifier "muxoutput".
+# ** Error: cpu.vhd(288): (vcom-1136) Unknown identifier "muxoutput".
+# ** Error: cpu.vhd(307): (vcom-1136) Unknown identifier "o_memtoreg".
+# ** Error: cpu.vhd(307): (vcom-1136) Unknown identifier "muxoutput".
+# ** Error: cpu.vhd(307): (vcom-1136) Unknown identifier "o_muxoutput".
+# ** Error: cpu.vhd(315): (vcom-1136) Unknown identifier "muxoutput".
+# ** Error: cpu.vhd(315): (vcom-1136) Unknown identifier "muxoutput_wb".
+# ** Error: cpu.vhd(362): VHDL Compiler exiting
+# /remote/Modelsim/6.5c/modeltech/linux_x86_64/vcom failed.
+vcom -work work cpu.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package mips32
+# -- Compiling entity cpu
+# -- Compiling architecture structure of cpu
+# ** Error: cpu.vhd(307): (vcom-1136) Unknown identifier "o_memtoreg".
+# ** Error: cpu.vhd(362): VHDL Compiler exiting
+# /remote/Modelsim/6.5c/modeltech/linux_x86_64/vcom failed.
+vcom -work work cpu.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package mips32
+# -- Compiling entity cpu
+# -- Compiling architecture structure of cpu
+# ** Error: cpu.vhd(287): (vcom-1136) Unknown identifier "o_memtoreg".
+# ** Error: cpu.vhd(309): (vcom-1136) Unknown identifier "o_memtoreg".
+# ** Error: cpu.vhd(364): VHDL Compiler exiting
+# /remote/Modelsim/6.5c/modeltech/linux_x86_64/vcom failed.
+vcom -work work cpu.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package mips32
+# -- Compiling entity cpu
+# -- Compiling architecture structure of cpu
+vcom -work work instructiondecoder.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package mips32
+# -- Compiling entity instructiondecoder
+# -- Compiling architecture behavior of instructiondecoder
+vcom -work work instructionfetch.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package mips32
+# -- Loading package numeric_std
+# -- Compiling entity instructionfetch
+# -- Compiling architecture behavior of instructionfetch
+vcom -work work cpu.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package mips32
+# -- Compiling entity cpu
+# -- Compiling architecture structure of cpu
+vcom -work work exmem.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package mips32
+# -- Loading package numeric_std
+# -- Compiling entity exmem
+# -- Compiling architecture behavior of exmem
+# ** Error: exmem.vhd(46): Illegal target for signal assignment.
+# ** Error: exmem.vhd(46): (vcom-1136) Unknown identifier "o_address".
+# ** Error: exmem.vhd(64): VHDL Compiler exiting
+# /remote/Modelsim/6.5c/modeltech/linux_x86_64/vcom failed.
+vcom -work work exmem.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package mips32
+# -- Loading package numeric_std
+# -- Compiling entity exmem
+# -- Compiling architecture behavior of exmem
+vcom -work work exmem.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package mips32
+# -- Loading package numeric_std
+# -- Compiling entity exmem
+# -- Compiling architecture behavior of exmem
+vcom -work work cpu.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package mips32
+# -- Compiling entity cpu
+# -- Compiling architecture structure of cpu

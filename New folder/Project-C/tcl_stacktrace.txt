@@ -1,0 +1,16 @@
+Thu Dec 11 12:51:27 AM CST 2014
+Trace back: grab failed: another application has grab
+    while executing
+"grab -global $menu"
+    (procedure "tk_popup" line 10)
+    invoked from within
+"tk_popup $itk_component(popup) $X $Y"
+    (object "::.dockbar" method "::mtiwidgets::Dockbar::_doPopup" body line 12)
+    invoked from within
+"::.dockbar _doPopup .dockbar .dockbar 1202 208"
+    (in namespace inscope "::mtiwidgets::Dockbar" script line 1)
+    invoked from within
+"namespace inscope ::mtiwidgets::Dockbar {::.dockbar _doPopup .dockbar .dockbar 1202 208}"
+    (command bound to event)
+  2: ::tkerror {grab failed: another application has grab}
+  1: ::bgerror {grab failed: another application has grab}

@@ -1,0 +1,361 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/averma/cpre381/Project-A
+T_opt
+Z1 Vmk5_<T>DDIN5a1f]HgA@N0
+Z2 04 3 8 work slt dataflow 1
+Z3 =1--543ee814-47a7e-4ecd
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OL;O;6.5c;42
+T_opt1
+Z7 V8YY@aAX<E045ao2abgE`91
+Z8 04 3 9 work alu structure 1
+Z9 =1--544841ea-4db90-fbb
+R4
+Z10 n@_opt1
+R6
+T_opt2
+Z11 VQ:hlljE0LMY;TAB8<HPDY2
+Z12 04 5 9 work alu32 structure 1
+Z13 =1--54484238-61ed9-10b9
+R4
+Z14 n@_opt2
+R6
+Ealu
+Z15 w1414021675
+Z16 DPx17 __model_tech/ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z17 DPx17 __model_tech/ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z18 DPx35 /home/averma/cpre381/Project-A/work 10 array_port 0 22 :Ma6i7BTST;UGOQ=QkW6D2
+Z19 DPx17 __model_tech/ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+Z20 8alu.vhd
+Z21 Falu.vhd
+l0
+L8
+Z22 V_VKa^V^6OIEG]4@znEFh=0
+Z23 OL;C;6.5c;42
+Z24 o-work work
+Z25 tExplicit 1
+Z26 !s100 `ahAULLPdBL4d_2efiN6C1
+Astructure
+Z27 DEx35 /home/averma/cpre381/Project-A/work 3 mux 0 22 iV5XAOIAVQTKL<QBj;0?71
+Z28 DEx35 /home/averma/cpre381/Project-A/work 6 fadder 0 22 d9YjP`na0@5_UJF3^J5dN1
+Z29 DEx35 /home/averma/cpre381/Project-A/work 4 xor2 0 22 4<hnMi^zYM6eOWXYf:ikb2
+Z30 DEx35 /home/averma/cpre381/Project-A/work 3 or2 0 22 Q5jj`QMaAZGS77OQ=E:SN3
+Z31 DEx35 /home/averma/cpre381/Project-A/work 4 and2 0 22 fVL4Ze9kLmF^WI1lHIJ^a2
+Z32 DEx35 /home/averma/cpre381/Project-A/work 4 inv2 0 22 D<51b9B:c485T6^No:=8A0
+R16
+R17
+R18
+R19
+Z33 DEx35 /home/averma/cpre381/Project-A/work 3 alu 0 22 _VKa^V^6OIEG]4@znEFh=0
+32
+Z34 Mx4 17 __model_tech/ieee 14 std_logic_1164
+Z35 Mx3 35 /home/averma/cpre381/Project-A/work 10 array_port
+Z36 Mx2 17 __model_tech/ieee 11 numeric_std
+Z37 Mx1 17 __model_tech/ieee 15 std_logic_arith
+l89
+L21
+Z38 V[]a78D?@5E[LJA6C45`>@2
+Z39 !s100 FUzMIjBWnVC1QL<JbZ8j72
+R23
+R24
+R25
+Ealu32
+Z40 w1414021678
+Z41 DPx17 __model_tech/ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+R16
+R17
+R18
+R19
+32
+Z42 8alu32.vhd
+Z43 Falu32.vhd
+l0
+L11
+Z44 VC]e0QRQ[GFZG1ajX@o2i@2
+R23
+R24
+R25
+Z45 !s100 aeI:ZhTmY_N<UF@RSgmOj2
+Astructure
+R33
+R32
+R41
+R16
+R17
+R18
+R19
+DEx35 /home/averma/cpre381/Project-A/work 5 alu32 0 22 C]e0QRQ[GFZG1ajX@o2i@2
+32
+Z46 Mx5 17 __model_tech/ieee 14 std_logic_1164
+Z47 Mx4 35 /home/averma/cpre381/Project-A/work 10 array_port
+Z48 Mx3 17 __model_tech/ieee 11 numeric_std
+Z49 Mx2 17 __model_tech/ieee 15 std_logic_arith
+Z50 Mx1 17 __model_tech/ieee 18 std_logic_unsigned
+l53
+L24
+Z51 VA=RZW[V^K=><_Wz8HOL961
+R23
+R24
+R25
+Z52 !s100 :C^B;G=dlaIeUg`Ie1L532
+Eand2
+Z53 w1413407405
+Z54 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z55 8and2.vhd
+Z56 Fand2.vhd
+l0
+L21
+Z57 VfVL4Ze9kLmF^WI1lHIJ^a2
+R23
+32
+R24
+R25
+Z58 !s100 ?nTgX59O`[<]j^L4E@N3<1
+Adataflow
+R54
+Z59 DEx4 work 4 and2 0 22 fVL4Ze9kLmF^WI1lHIJ^a2
+l30
+L29
+Z60 VLbzWnS]heH@[dZ36T_];E3
+R23
+32
+Z61 Mx1 4 ieee 14 std_logic_1164
+R24
+R25
+Z62 !s100 2]QXgT@2`<[OgNlO=gZiS0
+Parray32_port
+R54
+Z63 w1413414120
+Z64 8array32_port.vhd
+Z65 Farray32_port.vhd
+l0
+L4
+Z66 V:iM:R:R<ImLiPDZZCPLM10
+R23
+32
+R61
+R24
+R25
+Z67 !s100 _Lel`C3P??9Ud<4I4OUFI0
+Parray_port
+R19
+32
+Z68 Mx1 17 __model_tech/ieee 14 std_logic_1164
+Z69 w1414018938
+Z70 8array_port.vhd
+Z71 Farray_port.vhd
+l0
+L4
+Z72 V:Ma6i7BTST;UGOQ=QkW6D2
+R23
+R24
+R25
+Z73 !s100 1SeF<C6GLh]jgd_C7afLC1
+Efa
+Z74 w1413407293
+R54
+Z75 8fadder.vhd
+Z76 Ffadder.vhd
+l0
+L4
+Z77 V4j7E2lk`=:W8TmG2Fb^cS1
+R23
+32
+R24
+R25
+Z78 !s100 aZCogReOFjDM0UcI=N2F63
+Adataflow
+R54
+Z79 DEx4 work 2 fa 0 22 4j7E2lk`=:W8TmG2Fb^cS1
+l14
+L14
+Z80 VGJ[EadPJD@V63H7ec;BeV0
+R23
+32
+R61
+R24
+R25
+Z81 !s100 RW3[T>ok;ZYki1ZPWmU==2
+Efadder
+Z82 w1413935495
+R54
+R75
+R76
+l0
+L4
+Z83 Vd9YjP`na0@5_UJF3^J5dN1
+R23
+32
+R24
+R25
+Z84 !s100 [[1^b:V1@LQK8o2I5G1I22
+Adataflow
+R54
+Z85 DEx4 work 6 fadder 0 22 d9YjP`na0@5_UJF3^J5dN1
+l14
+L14
+Z86 V<iFEjRPRC4n::T<jf8[810
+R23
+32
+R61
+R24
+R25
+Z87 !s100 hUN5Dfn@1FAEjK5Io0]8W3
+Einv
+Z88 w1413408169
+R54
+Z89 8inv2.vhd
+Z90 Finv2.vhd
+l0
+L21
+Z91 VkSo09h=RWQaSU4AA]H_Wh3
+R23
+32
+R24
+R25
+Z92 !s100 I=E9IQAB=_L[eRzf6_J`e1
+Adataflow
+R54
+Z93 DEx4 work 3 inv 0 22 kSo09h=RWQaSU4AA]H_Wh3
+l29
+L28
+Z94 V7o0al<=MRKSDRTMX_6dTN1
+R23
+32
+R61
+R24
+R25
+Z95 !s100 o3LAce^L_K;V0OBiFSgDA0
+Einv2
+Z96 w1413413002
+R54
+R89
+R90
+l0
+L21
+Z97 VD<51b9B:c485T6^No:=8A0
+R23
+32
+R24
+R25
+Z98 !s100 e4bF20BAAVz`=A703D3>60
+Adataflow
+R54
+Z99 DEx4 work 4 inv2 0 22 D<51b9B:c485T6^No:=8A0
+l29
+L28
+Z100 VUSRlLg^faX=VD<lRIV9Fk1
+R23
+32
+R61
+R24
+R25
+Z101 !s100 mnn:G1I1TMV:8Kfj:;hK31
+Emux
+Z102 w1414019560
+Z103 DPx4 work 10 array_port 0 22 :Ma6i7BTST;UGOQ=QkW6D2
+R54
+Z104 8mux.vhd
+Z105 Fmux.vhd
+l0
+L7
+Z106 ViV5XAOIAVQTKL<QBj;0?71
+R23
+32
+R24
+R25
+Z107 !s100 XLhY8bPHZ<SKeI00D?KlI0
+Adataflow
+Z108 DPx4 work 10 array_port 0 22 EIi=O[n85AO426T58aC4Y2
+R54
+Z109 DEx4 work 3 mux 0 22 iV5XAOIAVQTKL<QBj;0?71
+l20
+L18
+Z110 Vb`^m;OWIzD]k]gUFH4^lK3
+R23
+32
+Z111 Mx2 4 ieee 14 std_logic_1164
+Z112 Mx1 4 work 10 array_port
+R24
+R25
+Z113 !s100 B8DPk][1fB8aiYbKCVnCg1
+Eor2
+Z114 w1413407356
+R54
+Z115 8or2.vhd
+Z116 For2.vhd
+l0
+L21
+Z117 VQ5jj`QMaAZGS77OQ=E:SN3
+R23
+32
+R24
+R25
+Z118 !s100 GZnm45]@TOZN;V>CA[0Z12
+Adataflow
+R54
+Z119 DEx4 work 3 or2 0 22 Q5jj`QMaAZGS77OQ=E:SN3
+l30
+L29
+Z120 V6h9d6BaoaR`kMXR4UCT``3
+R23
+32
+R61
+R24
+R25
+Z121 !s100 GLP627^LGVOJ5LHjUXG]k3
+Eslt
+Z122 w1413408946
+R54
+Z123 8slt.vhd
+Z124 Fslt.vhd
+l0
+L4
+Z125 VaVmU0V0[SKOADT02M:;`E2
+R23
+32
+R24
+R25
+Z126 !s100 4HZ9GRH4H@@Z]MTSY7mG^0
+Adataflow
+R54
+Z127 DEx4 work 3 slt 0 22 aVmU0V0[SKOADT02M:;`E2
+l12
+L11
+Z128 VC_l>R3lCK2fh7eF@8fgX`0
+Z129 !s100 go]Z=a]cFzn`NPEl4>;E?1
+R23
+32
+R61
+R24
+R25
+Exor2
+Z130 w1413407394
+R54
+Z131 8xor2.vhd
+Z132 Fxor2.vhd
+l0
+L21
+Z133 V4<hnMi^zYM6eOWXYf:ikb2
+R23
+32
+R24
+R25
+Z134 !s100 [9`N;7:7CbPFFM;HRMKMk3
+Adataflow
+R54
+Z135 DEx4 work 4 xor2 0 22 4<hnMi^zYM6eOWXYf:ikb2
+l30
+L29
+Z136 VX3OzJB68@En2Z80HjahZC1
+R23
+32
+R61
+R24
+R25
+Z137 !s100 :Qh_cIJZ<Mo73LWk82H_R0

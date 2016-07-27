@@ -1,0 +1,36 @@
+
+library IEEE;
+use IEEE.std_logic_1164.all;
+use work.mips32.all;
+
+entity instructionfetch is
+  port (inst        : in  m32_word;     -- Instruction
+        PCplusfour  : in  m32_word
+        );
+
+end instructionfetch;
+
+architecture structure of  instructionfetch is
+
+signal opcode, funct    : m32_6bits; 
+signal rs, rt, rd, dst, shamt :  m32_5bits;
+signal Iadd :  m32_halfword;
+signal Jadd :  m32_26bits;
+
+begin
+  
+   SPLIT : block                     -- Split the instructions into fields
+  begin
+    opcode <= inst(31 downto 26);
+    rs     <= inst(25 downto 21);
+    rt     <= inst(20 downto 16);
+    rd     <= inst(15 downto 11);
+    shamt  <= inst(10 downto 6);
+    
+    Iadd   <= inst(15 downto 0);
+    funct  <= Iadd(5 downto 0);
+    Jadd   <= inst(25 downto 0); 
+    -- More code here
+  end block;
+  
+  end structure;

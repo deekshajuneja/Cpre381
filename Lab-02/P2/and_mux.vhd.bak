@@ -1,0 +1,64 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity and_mux is
+generic(N : integer := 32);
+  port(i_D         : in std_logic_vector(N-1 downto 0);
+       i_E         : in std_logic_vector(N-1 downto 0);
+       i_S         : in std_logic;
+       o_F         : out std_logic_vector(N-1 downto 0));
+
+end and_mux;
+
+architecture structure of and_mux is
+
+component and2 is
+  port(i_A        : in std_logic;
+      i_B         : in std_logic;
+      o_F         : out std_logic);
+end component;
+
+component or2 is
+  
+   port(i_A          : in std_logic;
+       i_B          : in std_logic;
+       o_F          : out std_logic);
+end component;
+
+component inv is
+   port(i_A          : in std_logic;
+       o_F          : out std_logic);
+end component;
+
+signal and21, and22, inv1 : std_logic;
+
+
+begin
+    -- Just like the real circuit, there 
+    -- are four components: G1 to G4
+    
+    G1_i: inv  port map(i_S, inv1);
+    
+    G1: for i in 0 to N-1 generate
+      o_F(i) <= not i_S;
+      -- G1_i: inv  port map(i_S, inv1);
+   end generate G1;
+     
+    G2: for i in 0 to N-1 generate
+      o_F(i) <= inv1 and i_D(i);
+      G2_i: and2  port map(inv1, i_D(i), and21);
+    end generate G2; 
+      
+    G3: for i in 0 to N-1 generate
+      o_F(i) <= i_S and i_E(i);
+      G3_i: and2  port map(i_S, i_E(i), and22);
+    end generate G3;
+            
+    G4: for i in 0 to N-1 generate
+      o_F(i) <= and21 or and22;  
+     G4_i: or2   port map(and21, and22, o_F(i)); 
+    end generate G4;
+    
+end structure;
+ 
+  

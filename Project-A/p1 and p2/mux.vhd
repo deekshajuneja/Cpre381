@@ -1,0 +1,33 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+ use work.array_port.all;
+
+
+
+entity mux is
+
+port( 
+sel : in std_logic_vector(2 downto 0);
+i_D : in array_bit;
+o_D : out std_logic);
+
+end mux;
+
+
+
+architecture dataflow of mux is
+
+begin
+  
+  with sel select
+  
+o_D <= i_D(0) when "000",
+       i_D(1) when "001",
+       i_D(2) when "010",
+       i_D(3) when "011",
+       i_D(4) when "100",
+       i_D(5) when "101",
+       i_D(6) when "110",
+         '0' when others;
+       
+end dataflow;

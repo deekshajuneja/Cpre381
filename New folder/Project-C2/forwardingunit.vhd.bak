@@ -1,0 +1,45 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use work.mips32.all;
+use IEEE.numeric_std.all;
+
+entity forwardingunit is
+  port( inst1 : in m32_5bits;
+  rs : in m32_5bits;
+  rt :  in m32_5bits;
+  exregwrite : in m32_1bit;
+ wbregwrite : in m32_1bit;
+    ForwardA : out m32_2bits;
+   ForwardB : out m32_2bits;
+   muxoutput1 : in m32_5bits);
+        
+      end forwardingunit;
+              
+        architecture behavior of forwardingunit is
+      
+        begin  
+        process(exregwrite, inst1, muxoutput1, wbregwrite, rs, rt)
+          begin
+          if ((exregwrite = '1') and (inst1 /= "00000") and (inst1 = rs)) then
+            ForwardA <= "10";
+              
+            elsif (wbregwrite = '1') and (inst1 /= "00000") and (inst1 /= rs) and (muxoutput1 = rs) then
+            ForwardA <= "01";
+            
+          else 
+          ForwardA <= "00";
+          
+        end if;
+        
+        if (wbregwrite = '1') and (inst1 /= rt) and (muxoutput1 /= "00000") and (muxoutput1 = rt) then
+          ForwardB <= "01";
+            
+          elsif (exregwrite ='1') and (inst1 /= "00000") and (inst1 = rt) then
+            ForwardB <= "10";
+              
+            else
+              ForwardB<="00";
+              end if;
+            end process;
+            
+          end behavior;

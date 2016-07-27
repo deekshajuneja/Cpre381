@@ -1,0 +1,24 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+entity slt is
+  port( in_A : in std_logic;
+        in_B : in std_logic;
+        o_C  : out std_logic);
+        
+    end slt;
+    
+    architecture dataflow of slt is 
+    begin
+     -- process(in_A, in_B) 
+     -- if(in_A < in_B) then
+        o_c <= '1' when in_A < in_B else
+               '0';
+        
+     -- else
+--        
+--        o_C <= '0';
+--        
+--      end if;
+--    end process;
+    end dataflow;

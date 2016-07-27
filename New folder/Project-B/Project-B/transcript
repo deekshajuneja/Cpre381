@@ -1,0 +1,2862 @@
+# //  ModelSim SE-64 6.5c Aug 27 2009 Linux 2.6.32-504.1.3.el6.x86_64
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+vlib work
+# ** Warning: (vlib-34) Library already exists at "work".
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package mips32
+# -- Compiling package constantspkg
+# -- Compiling package body constantspkg
+# -- Loading package constantspkg
+# -- Loading package numeric_std
+# -- Compiling entity signextender
+# -- Compiling architecture behavioral of signextender
+# -- Compiling entity adder
+# -- Compiling architecture behavior of adder
+# -- Compiling entity alu
+# -- Compiling architecture behavior of alu
+# -- Compiling entity alucontrol
+# -- Compiling architecture behavior of alucontrol
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+# -- Compiling entity control
+# -- Compiling architecture rom of control
+# -- Compiling entity cpu
+# -- Compiling architecture structure of cpu
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Compiling entity mem
+# -- Compiling architecture behavioral of mem
+# -- Compiling package mips32
+# -- Compiling package body mips32
+# -- Loading package mips32
+# -- Loading package std_logic_textio
+# -- Loading package mips32
+# -- Compiling entity mux2to1
+# -- Compiling architecture dataflow of mux2to1
+# -- Compiling entity reg
+# -- Compiling architecture behavior of reg
+# -- Compiling entity regfile
+# -- Compiling architecture behavior of regfile
+# -- Compiling entity tb_cpu
+# -- Compiling architecture behavior of tb_cpu
+# -- Compiling entity tb_regfile
+# -- Compiling architecture behavior of tb_regfile
+vsim work.tb_cpu
+# vsim work.tb_cpu 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.mips32(body)
+# Loading work.tb_cpu(behavior)#1
+# Loading ieee.numeric_std(body)
+# Loading work.cpu(structure)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mem(behavioral)#1
+add wave sim:/tb_cpu/*
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 4  Instance: /tb_cpu/data_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 5  Instance: /tb_cpu/cpu1/cpu
+# ** Note: 0 00000000 8C080000 00000000 10101010 00000000
+#    Time: 90 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 1 00000000 8C080000 00000000 10101010 00000000
+#    Time: 190 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 2 00000004 8C090004 00000004 20202020 00000000
+#    Time: 290 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 3 00000008 11090002 FFFFFFFC 00000000 00000004
+#    Time: 390 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 4 0000000C 01094020 00000000 10101010 00000000
+#    Time: 490 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 5 00000010 AC080008 00000008 10101010 10101010
+#    Time: 590 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 6 00000014 08000000 00000000 10101010 00000000
+#    Time: 690 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 7 00000018 01094022 10101010 00000000 00000000
+#    Time: 790 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 8 0000001C 01094025 00000000 10101010 00000000
+#    Time: 890 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 9 00000020 01094024 00000000 10101010 00000000
+#    Time: 990 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 10 00000024 0109402A 00000000 10101010 00000000
+#    Time: 1090 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 11 00000028 01094027 EFEFEFEF 00000000 00000000
+#    Time: 1190 ns  Iteration: 0  Instance: /tb_cpu
+restart -f
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.mips32(body)
+# Loading work.tb_cpu(behavior)#1
+# Loading ieee.numeric_std(body)
+# Loading work.cpu(structure)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mem(behavioral)#1
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 4  Instance: /tb_cpu/data_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 5  Instance: /tb_cpu/cpu1/cpu
+# ** Note: 0 00000000 8C080000 00000000 10101010 00000000
+#    Time: 90 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 1 00000000 8C080000 00000000 10101010 00000000
+#    Time: 190 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 2 00000004 8C090004 00000004 20202020 00000000
+#    Time: 290 ns  Iteration: 0  Instance: /tb_cpu
+restart -f
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.mips32(body)
+# Loading work.tb_cpu(behavior)#1
+# Loading ieee.numeric_std(body)
+# Loading work.cpu(structure)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mem(behavioral)#1
+add wave sim:/tb_cpu/cpu1/*
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 4  Instance: /tb_cpu/data_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 5  Instance: /tb_cpu/cpu1/cpu
+# ** Note: 0 00000000 8C080000 00000000 10101010 00000000
+#    Time: 90 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 1 00000000 8C080000 00000000 10101010 00000000
+#    Time: 190 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 2 00000004 8C090004 00000004 20202020 00000000
+#    Time: 290 ns  Iteration: 0  Instance: /tb_cpu
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package mips32
+# -- Compiling package constantspkg
+# -- Compiling package body constantspkg
+# -- Loading package constantspkg
+# -- Loading package numeric_std
+# -- Compiling entity signextender
+# -- Compiling architecture behavioral of signextender
+# -- Compiling entity adder
+# -- Compiling architecture behavior of adder
+# -- Compiling entity alu
+# -- Compiling architecture behavior of alu
+# -- Compiling entity alucontrol
+# -- Compiling architecture behavior of alucontrol
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+# -- Compiling entity control
+# -- Compiling architecture rom of control
+# -- Compiling entity cpu
+# -- Compiling architecture structure of cpu
+# ** Error: cpu.vhd(234): Signal "aluop" is type work.mips32.m32_2bits; expecting type ieee.std_logic_1164.std_logic.
+# ** Error: cpu.vhd(234): Signal "jump" is type ieee.std_logic_1164.std_logic; expecting type work.mips32.m32_2bits.
+# ** Error: cpu.vhd(301): VHDL Compiler exiting
+# /remote/Modelsim/6.5c/modeltech/linux_x86_64/vcom failed.
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package mips32
+# -- Compiling package constantspkg
+# -- Compiling package body constantspkg
+# -- Loading package constantspkg
+# -- Loading package numeric_std
+# -- Compiling entity signextender
+# -- Compiling architecture behavioral of signextender
+# -- Compiling entity adder
+# -- Compiling architecture behavior of adder
+# -- Compiling entity alu
+# -- Compiling architecture behavior of alu
+# -- Compiling entity alucontrol
+# -- Compiling architecture behavior of alucontrol
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+# -- Compiling entity control
+# -- Compiling architecture rom of control
+# -- Compiling entity cpu
+# -- Compiling architecture structure of cpu
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Compiling entity mem
+# -- Compiling architecture behavioral of mem
+# -- Compiling package mips32
+# -- Compiling package body mips32
+# -- Loading package mips32
+# -- Loading package std_logic_textio
+# -- Loading package mips32
+# -- Compiling entity mux2to1
+# -- Compiling architecture dataflow of mux2to1
+# -- Compiling entity reg
+# -- Compiling architecture behavior of reg
+# -- Compiling entity regfile
+# -- Compiling architecture behavior of regfile
+# -- Compiling entity tb_cpu
+# -- Compiling architecture behavior of tb_cpu
+# -- Compiling entity tb_regfile
+# -- Compiling architecture behavior of tb_regfile
+vsim work.tb_cpu
+# vsim work.tb_cpu 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.mips32(body)
+# Loading work.tb_cpu(behavior)#1
+# Loading ieee.numeric_std(body)
+# Loading work.cpu(structure)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mem(behavioral)#1
+add wave sim:/tb_cpu/*
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 4  Instance: /tb_cpu/data_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 5  Instance: /tb_cpu/cpu1/cpu
+# ** Note: 0 00000000 8C080000 00000000 10101010 00000000
+#    Time: 90 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 1 00000000 8C080000 00000000 10101010 00000000
+#    Time: 190 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 2 00200000 8C080000 00000000 10101010 00000000
+#    Time: 290 ns  Iteration: 0  Instance: /tb_cpu
+restart -f
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.mips32(body)
+# Loading work.tb_cpu(behavior)#1
+# Loading ieee.numeric_std(body)
+# Loading work.cpu(structure)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mem(behavioral)#1
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 4  Instance: /tb_cpu/data_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 5  Instance: /tb_cpu/cpu1/cpu
+# ** Note: 0 00000000 8C080000 00000000 10101010 00000000
+#    Time: 90 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 1 00000000 8C080000 00000000 10101010 00000000
+#    Time: 190 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 2 00200000 8C080000 00000000 10101010 00000000
+#    Time: 290 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 3 00200000 8C080000 00000000 10101010 00000000
+#    Time: 390 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 4 00200000 8C080000 00000000 10101010 00000000
+#    Time: 490 ns  Iteration: 0  Instance: /tb_cpu
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package mips32
+# -- Compiling package constantspkg
+# -- Compiling package body constantspkg
+# -- Loading package constantspkg
+# -- Loading package numeric_std
+# -- Compiling entity signextender
+# -- Compiling architecture behavioral of signextender
+# -- Compiling entity adder
+# -- Compiling architecture behavior of adder
+# -- Compiling entity alu
+# -- Compiling architecture behavior of alu
+# -- Compiling entity alucontrol
+# -- Compiling architecture behavior of alucontrol
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+# -- Compiling entity control
+# -- Compiling architecture rom of control
+# -- Compiling entity cpu
+# -- Compiling architecture structure of cpu
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Compiling entity mem
+# -- Compiling architecture behavioral of mem
+# -- Compiling package mips32
+# -- Compiling package body mips32
+# -- Loading package mips32
+# -- Loading package std_logic_textio
+# -- Loading package mips32
+# -- Compiling entity mux2to1
+# -- Compiling architecture dataflow of mux2to1
+# -- Compiling entity reg
+# -- Compiling architecture behavior of reg
+# -- Compiling entity regfile
+# -- Compiling architecture behavior of regfile
+# -- Compiling entity tb_cpu
+# -- Compiling architecture behavior of tb_cpu
+# -- Compiling entity tb_regfile
+# -- Compiling architecture behavior of tb_regfile
+vsim work.tb_cpu
+# vsim work.tb_cpu 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.mips32(body)
+# Loading work.tb_cpu(behavior)#1
+# Loading ieee.numeric_std(body)
+# Loading work.cpu(structure)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mem(behavioral)#1
+add wave sim:/tb_cpu/*
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 4  Instance: /tb_cpu/data_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 5  Instance: /tb_cpu/cpu1/cpu
+# ** Note: 0 00000000 8C080000 00000000 10101010 00000000
+#    Time: 90 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 1 00000000 8C080000 00000000 10101010 00000000
+#    Time: 190 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 2 00200000 8C080000 00000000 10101010 00000000
+#    Time: 290 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 3 00200000 8C080000 00000000 10101010 00000000
+#    Time: 390 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 4 00200000 8C080000 00000000 10101010 00000000
+#    Time: 490 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 5 00200000 8C080000 00000000 10101010 00000000
+#    Time: 590 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 6 00200000 8C080000 00000000 10101010 00000000
+#    Time: 690 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 7 00200000 8C080000 00000000 10101010 00000000
+#    Time: 790 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 8 00200000 8C080000 00000000 10101010 00000000
+#    Time: 890 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 9 00200000 8C080000 00000000 10101010 00000000
+#    Time: 990 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 10 00200000 8C080000 00000000 10101010 00000000
+#    Time: 1090 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 11 00200000 8C080000 00000000 10101010 00000000
+#    Time: 1190 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 12 00200000 8C080000 00000000 10101010 00000000
+#    Time: 1290 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 13 00200000 8C080000 00000000 10101010 00000000
+#    Time: 1390 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 14 00200000 8C080000 00000000 10101010 00000000
+#    Time: 1490 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 15 00200000 8C080000 00000000 10101010 00000000
+#    Time: 1590 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 16 00200000 8C080000 00000000 10101010 00000000
+#    Time: 1690 ns  Iteration: 0  Instance: /tb_cpu
+restart -f
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.mips32(body)
+# Loading work.tb_cpu(behavior)#1
+# Loading ieee.numeric_std(body)
+# Loading work.cpu(structure)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mem(behavioral)#1
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 4  Instance: /tb_cpu/data_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 5  Instance: /tb_cpu/cpu1/cpu
+# ** Note: 0 00000000 8C080000 00000000 10101010 00000000
+#    Time: 90 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 1 00000000 8C080000 00000000 10101010 00000000
+#    Time: 190 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 2 00200000 8C080000 00000000 10101010 00000000
+#    Time: 290 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 3 00200000 8C080000 00000000 10101010 00000000
+#    Time: 390 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 4 00200000 8C080000 00000000 10101010 00000000
+#    Time: 490 ns  Iteration: 0  Instance: /tb_cpu
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package mips32
+# -- Compiling package constantspkg
+# -- Compiling package body constantspkg
+# -- Loading package constantspkg
+# -- Loading package numeric_std
+# -- Compiling entity signextender
+# -- Compiling architecture behavioral of signextender
+# -- Compiling entity adder
+# -- Compiling architecture behavior of adder
+# -- Compiling entity alu
+# -- Compiling architecture behavior of alu
+# -- Compiling entity alucontrol
+# -- Compiling architecture behavior of alucontrol
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+# -- Compiling entity control
+# -- Compiling architecture rom of control
+# -- Compiling entity cpu
+# -- Compiling architecture structure of cpu
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Compiling entity mem
+# -- Compiling architecture behavioral of mem
+# -- Compiling package mips32
+# -- Compiling package body mips32
+# -- Loading package mips32
+# -- Loading package std_logic_textio
+# -- Loading package mips32
+# -- Compiling entity mux2to1
+# -- Compiling architecture dataflow of mux2to1
+# -- Compiling entity reg
+# -- Compiling architecture behavior of reg
+# -- Compiling entity regfile
+# -- Compiling architecture behavior of regfile
+# -- Compiling entity tb_cpu
+# -- Compiling architecture behavior of tb_cpu
+# -- Compiling entity tb_regfile
+# -- Compiling architecture behavior of tb_regfile
+vsim work.tb_cpu
+# vsim work.tb_cpu 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.mips32(body)
+# Loading work.tb_cpu(behavior)#1
+# Loading ieee.numeric_std(body)
+# Loading work.cpu(structure)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mem(behavioral)#1
+add wave sim:/tb_cpu/*
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 5  Instance: /tb_cpu/cpu1/cpu
+# ** Note: 0 00000000 8C080000 00000000 10101010 00000000
+#    Time: 90 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 1 00000000 8C080000 00000000 10101010 00000000
+#    Time: 190 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 2 00200000 8C080000 00000000 10101010 00000000
+#    Time: 290 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 3 00200000 8C080000 00000000 10101010 00000000
+#    Time: 390 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 4 00200000 8C080000 00000000 10101010 00000000
+#    Time: 490 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 5 00200000 8C080000 00000000 10101010 00000000
+#    Time: 590 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 6 00200000 8C080000 00000000 10101010 00000000
+#    Time: 690 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 7 00200000 8C080000 00000000 10101010 00000000
+#    Time: 790 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 8 00200000 8C080000 00000000 10101010 00000000
+#    Time: 890 ns  Iteration: 0  Instance: /tb_cpu
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package mips32
+# -- Compiling package constantspkg
+# -- Compiling package body constantspkg
+# -- Loading package constantspkg
+# -- Loading package numeric_std
+# -- Compiling entity signextender
+# -- Compiling architecture behavioral of signextender
+# -- Compiling entity adder
+# -- Compiling architecture behavior of adder
+# -- Compiling entity alu
+# -- Compiling architecture behavior of alu
+# -- Compiling entity alucontrol
+# -- Compiling architecture behavior of alucontrol
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+# -- Compiling entity control
+# -- Compiling architecture rom of control
+# -- Compiling entity cpu
+# -- Compiling architecture structure of cpu
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Compiling entity mem
+# -- Compiling architecture behavioral of mem
+# -- Compiling package mips32
+# -- Compiling package body mips32
+# -- Loading package mips32
+# -- Loading package std_logic_textio
+# -- Loading package mips32
+# -- Compiling entity mux2to1
+# -- Compiling architecture dataflow of mux2to1
+# -- Compiling entity reg
+# -- Compiling architecture behavior of reg
+# -- Compiling entity regfile
+# -- Compiling architecture behavior of regfile
+# -- Compiling entity tb_cpu
+# -- Compiling architecture behavior of tb_cpu
+# -- Compiling entity tb_regfile
+# -- Compiling architecture behavior of tb_regfile
+vsim work.tb_cpu
+# vsim work.tb_cpu 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.mips32(body)
+# Loading work.tb_cpu(behavior)#1
+# Loading ieee.numeric_std(body)
+# Loading work.cpu(structure)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mem(behavioral)#1
+add wave sim:/tb_cpu/*
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 5  Instance: /tb_cpu/cpu1/cpu
+# ** Note: 0 00000000 8C080000 00000000 10101010 00000000
+#    Time: 90 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 1 00000000 8C080000 00000000 10101010 00000000
+#    Time: 190 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 2 00200000 8C080000 00000000 10101010 00000000
+#    Time: 290 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 3 00200000 8C080000 00000000 10101010 00000000
+#    Time: 390 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 4 00200000 8C080000 00000000 10101010 00000000
+#    Time: 490 ns  Iteration: 0  Instance: /tb_cpu
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package mips32
+# -- Compiling package constantspkg
+# -- Compiling package body constantspkg
+# -- Loading package constantspkg
+# -- Loading package numeric_std
+# -- Compiling entity signextender
+# -- Compiling architecture behavioral of signextender
+# -- Compiling entity adder
+# -- Compiling architecture behavior of adder
+# -- Compiling entity alu
+# -- Compiling architecture behavior of alu
+# -- Compiling entity alucontrol
+# -- Compiling architecture behavior of alucontrol
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+# -- Compiling entity control
+# -- Compiling architecture rom of control
+# -- Compiling entity cpu
+# -- Compiling architecture structure of cpu
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Compiling entity mem
+# -- Compiling architecture behavioral of mem
+# -- Compiling package mips32
+# -- Compiling package body mips32
+# -- Loading package mips32
+# -- Loading package std_logic_textio
+# -- Loading package mips32
+# -- Compiling entity mux2to1
+# -- Compiling architecture dataflow of mux2to1
+# -- Compiling entity reg
+# -- Compiling architecture behavior of reg
+# -- Compiling entity regfile
+# -- Compiling architecture behavior of regfile
+# -- Compiling entity tb_cpu
+# -- Compiling architecture behavior of tb_cpu
+# -- Compiling entity tb_regfile
+# -- Compiling architecture behavior of tb_regfile
+vsim work.tb_cpu
+# vsim work.tb_cpu 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.mips32(body)
+# Loading work.tb_cpu(behavior)#1
+# Loading ieee.numeric_std(body)
+# Loading work.cpu(structure)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mem(behavioral)#1
+add wave sim:/tb_cpu/*
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 5  Instance: /tb_cpu/cpu1/cpu
+# ** Note: 0 00000000 8C080000 00000000 10101010 00000000
+#    Time: 90 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 1 00000000 8C080000 00000000 10101010 00000000
+#    Time: 190 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 2 00000004 8C090004 00000004 20202020 00000000
+#    Time: 290 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 3 00000008 11090002 FFFFFFFC 00000000 00000004
+#    Time: 390 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 4 0000000C 01094020 00000004 20202020 00000004
+#    Time: 490 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 5 00000010 AC080008 00000008 20202020 20202020
+#    Time: 590 ns  Iteration: 0  Instance: /tb_cpu
+restart -f
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.mips32(body)
+# Loading work.tb_cpu(behavior)#1
+# Loading ieee.numeric_std(body)
+# Loading work.cpu(structure)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mem(behavioral)#1
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 5  Instance: /tb_cpu/cpu1/cpu
+# ** Note: 0 00000000 8C080000 00000000 10101010 00000000
+#    Time: 90 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 1 00000000 8C080000 00000000 10101010 00000000
+#    Time: 190 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 2 00000004 8C090004 00000004 20202020 00000000
+#    Time: 290 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 3 00000008 11090002 FFFFFFFC 00000000 00000004
+#    Time: 390 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 4 0000000C 01094020 00000004 20202020 00000004
+#    Time: 490 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 5 00000010 AC080008 00000008 20202020 20202020
+#    Time: 590 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 6 00000014 08000000 00000000 10101010 00000000
+#    Time: 690 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 7 00000018 01094022 2020201C 00000000 00000004
+#    Time: 790 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 8 0000001C 01094025 00000004 20202020 00000004
+#    Time: 890 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 9 00000020 01094024 00000000 10101010 00000004
+#    Time: 990 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 10 00000024 0109402A 00000000 10101010 00000004
+#    Time: 1090 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 11 00000028 01094027 EFEFEFEB 00000000 00000004
+#    Time: 1190 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 12 0000002C 00000000 00000000 10101010 00000000
+#    Time: 1290 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 13 00000030 00000000 00000000 10101010 00000000
+#    Time: 1390 ns  Iteration: 0  Instance: /tb_cpu
+restart -f
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.mips32(body)
+# Loading work.tb_cpu(behavior)#1
+# Loading ieee.numeric_std(body)
+# Loading work.cpu(structure)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mem(behavioral)#1
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 5  Instance: /tb_cpu/cpu1/cpu
+# ** Note: 0 00000000 8C080000 00000000 10101010 00000000
+#    Time: 90 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 1 00000000 8C080000 00000000 10101010 00000000
+#    Time: 190 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 2 00000004 8C090004 00000004 20202020 00000000
+#    Time: 290 ns  Iteration: 0  Instance: /tb_cpu
+restart
+run
+# ** Note: 3 00000008 11090002 FFFFFFFC 00000000 00000004
+#    Time: 390 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 4 0000000C 01094020 00000004 20202020 00000004
+#    Time: 490 ns  Iteration: 0  Instance: /tb_cpu
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.mips32(body)
+# Loading work.tb_cpu(behavior)#1
+# Loading ieee.numeric_std(body)
+# Loading work.cpu(structure)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mem(behavioral)#1
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 5  Instance: /tb_cpu/cpu1/cpu
+# ** Note: 0 00000000 8C080000 00000000 10101010 00000000
+#    Time: 90 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 1 00000000 8C080000 00000000 10101010 00000000
+#    Time: 190 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 2 00000004 8C090004 00000004 20202020 00000000
+#    Time: 290 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 3 00000008 11090002 FFFFFFFC 00000000 00000004
+#    Time: 390 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 4 0000000C 01094020 00000004 20202020 00000004
+#    Time: 490 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 5 00000010 AC080008 00000008 20202020 20202020
+#    Time: 590 ns  Iteration: 0  Instance: /tb_cpu
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.mips32(body)
+# Loading work.tb_cpu(behavior)#1
+# Loading ieee.numeric_std(body)
+# Loading work.cpu(structure)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mem(behavioral)#1
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 5  Instance: /tb_cpu/cpu1/cpu
+# ** Note: 0 00000000 8C080000 00000000 10101010 00000000
+#    Time: 90 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 1 00000000 8C080000 00000000 10101010 00000000
+#    Time: 190 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 2 00000004 8C090004 00000004 20202020 00000000
+#    Time: 290 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 3 00000008 11090002 FFFFFFFC 00000000 00000004
+#    Time: 390 ns  Iteration: 0  Instance: /tb_cpu
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.mips32(body)
+# Loading work.tb_cpu(behavior)#1
+# Loading ieee.numeric_std(body)
+# Loading work.cpu(structure)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mem(behavioral)#1
+add wave sim:/tb_cpu/cpu1/*
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 5  Instance: /tb_cpu/cpu1/cpu
+# ** Note: 0 00000000 8C080000 00000000 10101010 00000000
+#    Time: 90 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 1 00000000 8C080000 00000000 10101010 00000000
+#    Time: 190 ns  Iteration: 0  Instance: /tb_cpu
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package mips32
+# -- Compiling package constantspkg
+# -- Compiling package body constantspkg
+# -- Loading package constantspkg
+# -- Loading package numeric_std
+# -- Compiling entity signextender
+# -- Compiling architecture behavioral of signextender
+# -- Compiling entity adder
+# -- Compiling architecture behavior of adder
+# -- Compiling entity alu
+# -- Compiling architecture behavior of alu
+# -- Compiling entity alucontrol
+# -- Compiling architecture behavior of alucontrol
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+# -- Compiling entity control
+# -- Compiling architecture rom of control
+# -- Compiling entity cpu
+# -- Compiling architecture structure of cpu
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Compiling entity mem
+# -- Compiling architecture behavioral of mem
+# -- Compiling package mips32
+# -- Compiling package body mips32
+# -- Loading package mips32
+# -- Loading package std_logic_textio
+# -- Loading package mips32
+# -- Compiling entity mux2to1
+# -- Compiling architecture dataflow of mux2to1
+# -- Compiling entity reg
+# -- Compiling architecture behavior of reg
+# -- Compiling entity regfile
+# -- Compiling architecture behavior of regfile
+# -- Compiling entity tb_cpu
+# -- Compiling architecture behavior of tb_cpu
+# -- Compiling entity tb_regfile
+# -- Compiling architecture behavior of tb_regfile
+vsim work.tb_cpu
+# vsim work.tb_cpu 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.mips32(body)
+# Loading work.tb_cpu(behavior)#1
+# Loading ieee.numeric_std(body)
+# Loading work.cpu(structure)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mem(behavioral)#1
+add wave sim:/tb_cpu/cpu1/*
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 5  Instance: /tb_cpu/cpu1/cpu
+# ** Note: 0 00000000 8C080000 00000000 10101010 00000000
+#    Time: 90 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 1 00000000 8C080000 00000000 10101010 00000000
+#    Time: 190 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 2 00000004 8C090004 00000004 20202020 00000000
+#    Time: 290 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 3 00000008 11090002 EFEFEFF0 00000000 20202020
+#    Time: 390 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 4 0000000C 01094020 30303030 00000000 20202020
+#    Time: 490 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 5 00000010 AC080008 00000008 30303030 30303030
+#    Time: 590 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 6 00000014 08000000 00000000 10101010 00000000
+#    Time: 690 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 7 00000018 01094022 10101010 00000000 20202020
+#    Time: 790 ns  Iteration: 0  Instance: /tb_cpu
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.mips32(body)
+# Loading work.tb_cpu(behavior)#1
+# Loading ieee.numeric_std(body)
+# Loading work.cpu(structure)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mem(behavioral)#1
+add wave sim:/tb_cpu/*
+add wave sim:/tb_cpu/*
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 5  Instance: /tb_cpu/cpu1/cpu
+# ** Note: 0 00000000 8C080000 00000000 10101010 00000000
+#    Time: 90 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 1 00000000 8C080000 00000000 10101010 00000000
+#    Time: 190 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 2 00000004 8C090004 00000004 20202020 00000000
+#    Time: 290 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 3 00000008 11090002 EFEFEFF0 00000000 20202020
+#    Time: 390 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 4 0000000C 01094020 30303030 00000000 20202020
+#    Time: 490 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 5 00000010 AC080008 00000008 30303030 30303030
+#    Time: 590 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 6 00000014 08000000 00000000 10101010 00000000
+#    Time: 690 ns  Iteration: 0  Instance: /tb_cpu
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package mips32
+# -- Compiling package constantspkg
+# -- Compiling package body constantspkg
+# -- Loading package constantspkg
+# -- Loading package numeric_std
+# -- Compiling entity signextender
+# -- Compiling architecture behavioral of signextender
+# -- Compiling entity adder
+# -- Compiling architecture behavior of adder
+# -- Compiling entity alu
+# -- Compiling architecture behavior of alu
+# -- Compiling entity alucontrol
+# -- Compiling architecture behavior of alucontrol
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+# -- Compiling entity control
+# -- Compiling architecture rom of control
+# -- Compiling entity cpu
+# -- Compiling architecture structure of cpu
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Compiling entity mem
+# -- Compiling architecture behavioral of mem
+# -- Compiling package mips32
+# -- Compiling package body mips32
+# -- Loading package mips32
+# -- Loading package std_logic_textio
+# -- Loading package mips32
+# -- Compiling entity mux2to1
+# -- Compiling architecture dataflow of mux2to1
+# -- Compiling entity reg
+# -- Compiling architecture behavior of reg
+# -- Compiling entity regfile
+# -- Compiling architecture behavior of regfile
+# -- Compiling entity tb_cpu
+# -- Compiling architecture behavior of tb_cpu
+# -- Compiling entity tb_regfile
+# -- Compiling architecture behavior of tb_regfile
+vsim work.tb_cpu
+# vsim work.tb_cpu 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.mips32(body)
+# Loading work.tb_cpu(behavior)#1
+# Loading ieee.numeric_std(body)
+# Loading work.cpu(structure)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mem(behavioral)#1
+add wave sim:/tb_cpu/*
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 5  Instance: /tb_cpu/cpu1/cpu
+# ** Note: 0 00000000 8C080000 00000000 10101010 00000000
+#    Time: 90 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 1 00000000 8C080000 00000000 10101010 00000000
+#    Time: 190 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 2 00000004 8C090004 00000004 20202020 00000000
+#    Time: 290 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 3 00000008 11090002 EFEFEFF0 00000000 20202020
+#    Time: 390 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 4 0000000C 01094020 30303030 00000000 20202020
+#    Time: 490 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 5 00000010 AC080008 00000008 30303030 30303030
+#    Time: 590 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 6 00000014 01094022 10101010 00000000 20202020
+#    Time: 690 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 7 00000018 01094025 30303030 00000000 20202020
+#    Time: 790 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 8 0000001C 01094024 20202020 00000000 20202020
+#    Time: 890 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 9 00000020 0109402A 00000000 10101010 20202020
+#    Time: 990 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 10 00000024 01094027 DFDFDFDF 00000000 20202020
+#    Time: 1090 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 11 00000028 08000000 00000000 10101010 00000000
+#    Time: 1190 ns  Iteration: 0  Instance: /tb_cpu
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package mips32
+# -- Compiling package constantspkg
+# -- Compiling package body constantspkg
+# -- Loading package constantspkg
+# -- Loading package numeric_std
+# -- Compiling entity signextender
+# -- Compiling architecture behavioral of signextender
+# -- Compiling entity adder
+# -- Compiling architecture behavior of adder
+# -- Compiling entity alu
+# -- Compiling architecture behavior of alu
+# -- Compiling entity alucontrol
+# -- Compiling architecture behavior of alucontrol
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+# -- Compiling entity control
+# -- Compiling architecture rom of control
+# -- Compiling entity cpu
+# -- Compiling architecture structure of cpu
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Compiling entity mem
+# -- Compiling architecture behavioral of mem
+# -- Compiling package mips32
+# -- Compiling package body mips32
+# -- Loading package mips32
+# -- Loading package std_logic_textio
+# -- Loading package mips32
+# -- Compiling entity mux2to1
+# -- Compiling architecture dataflow of mux2to1
+# -- Compiling entity reg
+# -- Compiling architecture behavior of reg
+# -- Compiling entity regfile
+# -- Compiling architecture behavior of regfile
+# -- Compiling entity tb_cpu
+# -- Compiling architecture behavior of tb_cpu
+# -- Compiling entity tb_regfile
+# -- Compiling architecture behavior of tb_regfile
+vsim work.tb_cpu
+# vsim work.tb_cpu 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.mips32(body)
+# Loading work.tb_cpu(behavior)#1
+# Loading ieee.numeric_std(body)
+# Loading work.cpu(structure)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mem(behavioral)#1
+add wave sim:/tb_cpu/*
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 5  Instance: /tb_cpu/cpu1/cpu
+# ** Note: 0 00000000 8C080000 00000000 10101010 00000000
+#    Time: 90 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 1 00000000 8C080000 00000000 10101010 00000000
+#    Time: 190 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 2 00200000 8C080000 00000000 10101010 10101010
+#    Time: 290 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 3 00200000 8C080000 00000000 10101010 10101010
+#    Time: 390 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 4 00200000 8C080000 00000000 10101010 10101010
+#    Time: 490 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 5 00200000 8C080000 00000000 10101010 10101010
+#    Time: 590 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 6 00200000 8C080000 00000000 10101010 10101010
+#    Time: 690 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 7 00200000 8C080000 00000000 10101010 10101010
+#    Time: 790 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 8 00200000 8C080000 00000000 10101010 10101010
+#    Time: 890 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 9 00200000 8C080000 00000000 10101010 10101010
+#    Time: 990 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 10 00200000 8C080000 00000000 10101010 10101010
+#    Time: 1090 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 11 00200000 8C080000 00000000 10101010 10101010
+#    Time: 1190 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 12 00200000 8C080000 00000000 10101010 10101010
+#    Time: 1290 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 13 00200000 8C080000 00000000 10101010 10101010
+#    Time: 1390 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 14 00200000 8C080000 00000000 10101010 10101010
+#    Time: 1490 ns  Iteration: 0  Instance: /tb_cpu
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package mips32
+# -- Compiling package constantspkg
+# -- Compiling package body constantspkg
+# -- Loading package constantspkg
+# -- Loading package numeric_std
+# -- Compiling entity signextender
+# -- Compiling architecture behavioral of signextender
+# -- Compiling entity adder
+# -- Compiling architecture behavior of adder
+# -- Compiling entity alu
+# -- Compiling architecture behavior of alu
+# -- Compiling entity alucontrol
+# -- Compiling architecture behavior of alucontrol
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+# -- Compiling entity control
+# -- Compiling architecture rom of control
+# -- Compiling entity cpu
+# -- Compiling architecture structure of cpu
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Compiling entity mem
+# -- Compiling architecture behavioral of mem
+# -- Compiling package mips32
+# -- Compiling package body mips32
+# -- Loading package mips32
+# -- Loading package std_logic_textio
+# -- Loading package mips32
+# -- Compiling entity mux2to1
+# -- Compiling architecture dataflow of mux2to1
+# -- Compiling entity reg
+# -- Compiling architecture behavior of reg
+# -- Compiling entity regfile
+# -- Compiling architecture behavior of regfile
+# -- Compiling entity tb_cpu
+# -- Compiling architecture behavior of tb_cpu
+# -- Compiling entity tb_regfile
+# -- Compiling architecture behavior of tb_regfile
+vsim work.tb_cpu
+# vsim work.tb_cpu 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.mips32(body)
+# Loading work.tb_cpu(behavior)#1
+# Loading ieee.numeric_std(body)
+# Loading work.cpu(structure)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mem(behavioral)#1
+add wave sim:/tb_cpu/*
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 5  Instance: /tb_cpu/cpu1/cpu
+# ** Note: 0 00000000 8C080000 00000000 10101010 00000000
+#    Time: 90 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 1 00000000 8C080000 00000000 10101010 00000000
+#    Time: 190 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 2 00200000 8C080000 00000000 10101010 10101010
+#    Time: 290 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 3 00200000 8C080000 00000000 10101010 10101010
+#    Time: 390 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 4 00200000 8C080000 00000000 10101010 10101010
+#    Time: 490 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 5 00200000 8C080000 00000000 10101010 10101010
+#    Time: 590 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 6 00200000 8C080000 00000000 10101010 10101010
+#    Time: 690 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 7 00200000 8C080000 00000000 10101010 10101010
+#    Time: 790 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 8 00200000 8C080000 00000000 10101010 10101010
+#    Time: 890 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 9 00200000 8C080000 00000000 10101010 10101010
+#    Time: 990 ns  Iteration: 0  Instance: /tb_cpu
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package mips32
+# -- Compiling package constantspkg
+# -- Compiling package body constantspkg
+# -- Loading package constantspkg
+# -- Loading package numeric_std
+# -- Compiling entity signextender
+# -- Compiling architecture behavioral of signextender
+# -- Compiling entity adder
+# -- Compiling architecture behavior of adder
+# -- Compiling entity alu
+# -- Compiling architecture behavior of alu
+# -- Compiling entity alucontrol
+# -- Compiling architecture behavior of alucontrol
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+# -- Compiling entity control
+# -- Compiling architecture rom of control
+# -- Compiling entity cpu
+# -- Compiling architecture structure of cpu
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Compiling entity mem
+# -- Compiling architecture behavioral of mem
+# -- Compiling package mips32
+# -- Compiling package body mips32
+# -- Loading package mips32
+# -- Loading package std_logic_textio
+# -- Loading package mips32
+# -- Compiling entity mux2to1
+# -- Compiling architecture dataflow of mux2to1
+# -- Compiling entity reg
+# -- Compiling architecture behavior of reg
+# -- Compiling entity regfile
+# -- Compiling architecture behavior of regfile
+# -- Compiling entity tb_cpu
+# -- Compiling architecture behavior of tb_cpu
+# -- Compiling entity tb_regfile
+# -- Compiling architecture behavior of tb_regfile
+vsim work.tb_cpu
+# vsim work.tb_cpu 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error: cpu.vhd(234): Bad default binding for component instance "cpu1 : control".
+#  (Component port "jump1" is not on the entity.)
+# ** Warning: [1] cpu.vhd(234): (vopt-3473) Component instance "cpu1 : control" is not bound.
+# ** Error: alucontrol.vhd(13): Vopt Compiler exiting
+# Error loading design
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package mips32
+# -- Compiling package constantspkg
+# -- Compiling package body constantspkg
+# -- Loading package constantspkg
+# -- Loading package numeric_std
+# -- Compiling entity signextender
+# -- Compiling architecture behavioral of signextender
+# -- Compiling entity adder
+# -- Compiling architecture behavior of adder
+# -- Compiling entity alu
+# -- Compiling architecture behavior of alu
+# -- Compiling entity alucontrol
+# -- Compiling architecture behavior of alucontrol
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+# -- Compiling entity control
+# -- Compiling architecture rom of control
+# -- Compiling entity cpu
+# -- Compiling architecture structure of cpu
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Compiling entity mem
+# -- Compiling architecture behavioral of mem
+# -- Compiling package mips32
+# -- Compiling package body mips32
+# -- Loading package mips32
+# -- Loading package std_logic_textio
+# -- Loading package mips32
+# -- Compiling entity mux2to1
+# -- Compiling architecture dataflow of mux2to1
+# -- Compiling entity reg
+# -- Compiling architecture behavior of reg
+# -- Compiling entity regfile
+# -- Compiling architecture behavior of regfile
+# -- Compiling entity tb_cpu
+# -- Compiling architecture behavior of tb_cpu
+# -- Compiling entity tb_regfile
+# -- Compiling architecture behavior of tb_regfile
+vsim work.tb_cpu
+# vsim work.tb_cpu 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.mips32(body)
+# Loading work.tb_cpu(behavior)#1
+# Loading ieee.numeric_std(body)
+# Loading work.cpu(structure)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mem(behavioral)#1
+add wave sim:/tb_cpu/*
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 5  Instance: /tb_cpu/cpu1/cpu
+# ** Note: 0 00000000 8C080000 00000000 10101010 00000000
+#    Time: 90 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 1 00000000 8C080000 00000000 10101010 00000000
+#    Time: 190 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 2 00200000 8C080000 00000000 10101010 10101010
+#    Time: 290 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 3 00200000 8C080000 00000000 10101010 10101010
+#    Time: 390 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 4 00200000 8C080000 00000000 10101010 10101010
+#    Time: 490 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 5 00200000 8C080000 00000000 10101010 10101010
+#    Time: 590 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 6 00200000 8C080000 00000000 10101010 10101010
+#    Time: 690 ns  Iteration: 0  Instance: /tb_cpu
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package mips32
+# -- Compiling package constantspkg
+# -- Compiling package body constantspkg
+# -- Loading package constantspkg
+# -- Loading package numeric_std
+# -- Compiling entity signextender
+# -- Compiling architecture behavioral of signextender
+# -- Compiling entity adder
+# -- Compiling architecture behavior of adder
+# -- Compiling entity alu
+# -- Compiling architecture behavior of alu
+# -- Compiling entity alucontrol
+# -- Compiling architecture behavior of alucontrol
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+# -- Compiling entity control
+# -- Compiling architecture rom of control
+# -- Compiling entity cpu
+# -- Compiling architecture structure of cpu
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Compiling entity mem
+# -- Compiling architecture behavioral of mem
+# -- Compiling package mips32
+# -- Compiling package body mips32
+# -- Loading package mips32
+# -- Loading package std_logic_textio
+# -- Loading package mips32
+# -- Compiling entity mux2to1
+# -- Compiling architecture dataflow of mux2to1
+# -- Compiling entity reg
+# -- Compiling architecture behavior of reg
+# -- Compiling entity regfile
+# -- Compiling architecture behavior of regfile
+# -- Compiling entity tb_cpu
+# -- Compiling architecture behavior of tb_cpu
+# -- Compiling entity tb_regfile
+# -- Compiling architecture behavior of tb_regfile
+vsim work.tb_cpu
+# vsim work.tb_cpu 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.mips32(body)
+# Loading work.tb_cpu(behavior)#1
+# Loading ieee.numeric_std(body)
+# Loading work.cpu(structure)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mem(behavioral)#1
+add wave sim:/tb_cpu/*
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 5  Instance: /tb_cpu/cpu1/cpu
+# ** Note: 0 00000000 8C080000 00000000 10101010 00000000
+#    Time: 90 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 1 00000000 8C080000 00000000 10101010 00000000
+#    Time: 190 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 2 00200000 8C080000 00000000 10101010 10101010
+#    Time: 290 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 3 00200000 8C080000 00000000 10101010 10101010
+#    Time: 390 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 4 00200000 8C080000 00000000 10101010 10101010
+#    Time: 490 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 5 00200000 8C080000 00000000 10101010 10101010
+#    Time: 590 ns  Iteration: 0  Instance: /tb_cpu
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package mips32
+# -- Compiling package constantspkg
+# -- Compiling package body constantspkg
+# -- Loading package constantspkg
+# -- Loading package numeric_std
+# -- Compiling entity signextender
+# -- Compiling architecture behavioral of signextender
+# -- Compiling entity adder
+# -- Compiling architecture behavior of adder
+# -- Compiling entity alu
+# -- Compiling architecture behavior of alu
+# -- Compiling entity alucontrol
+# -- Compiling architecture behavior of alucontrol
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+# -- Compiling entity control
+# -- Compiling architecture rom of control
+# -- Compiling entity cpu
+# -- Compiling architecture structure of cpu
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Compiling entity mem
+# -- Compiling architecture behavioral of mem
+# -- Compiling package mips32
+# -- Compiling package body mips32
+# -- Loading package mips32
+# -- Loading package std_logic_textio
+# -- Loading package mips32
+# -- Compiling entity mux2to1
+# -- Compiling architecture dataflow of mux2to1
+# -- Compiling entity reg
+# -- Compiling architecture behavior of reg
+# -- Compiling entity regfile
+# -- Compiling architecture behavior of regfile
+# -- Compiling entity tb_cpu
+# -- Compiling architecture behavior of tb_cpu
+# -- Compiling entity tb_regfile
+# -- Compiling architecture behavior of tb_regfile
+vsim work.tb_cpu
+# vsim work.tb_cpu 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.mips32(body)
+# Loading work.tb_cpu(behavior)#1
+# Loading ieee.numeric_std(body)
+# Loading work.cpu(structure)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mem(behavioral)#1
+add wave sim:/tb_cpu/*
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 5  Instance: /tb_cpu/cpu1/cpu
+# ** Note: 0 00000000 8C080000 00000000 10101010 00000000
+#    Time: 90 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 1 00000000 8C080000 00000000 10101010 00000000
+#    Time: 190 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 2 00000004 8C090004 00000004 20202020 00000000
+#    Time: 290 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 3 00000008 11090002 EFEFEFF0 00000000 20202020
+#    Time: 390 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 4 0000000C 01094020 30303030 00000000 20202020
+#    Time: 490 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 5 00000010 AC080008 00000008 30303030 30303030
+#    Time: 590 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 6 00000014 01094022 10101010 00000000 20202020
+#    Time: 690 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 7 00000018 01094025 30303030 00000000 20202020
+#    Time: 790 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 8 0000001C 01094024 20202020 00000000 20202020
+#    Time: 890 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 9 00000020 0109402A 00000000 10101010 20202020
+#    Time: 990 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 10 00000024 01094027 DFDFDFDF 00000000 20202020
+#    Time: 1090 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 11 00000028 08000001 00000000 10101010 00000000
+#    Time: 1190 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 12 0000002C 00000000 00000000 10101010 00000000
+#    Time: 1290 ns  Iteration: 0  Instance: /tb_cpu
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package mips32
+# -- Compiling package constantspkg
+# -- Compiling package body constantspkg
+# -- Loading package constantspkg
+# -- Loading package numeric_std
+# -- Compiling entity signextender
+# -- Compiling architecture behavioral of signextender
+# -- Compiling entity adder
+# -- Compiling architecture behavior of adder
+# -- Compiling entity alu
+# -- Compiling architecture behavior of alu
+# -- Compiling entity alucontrol
+# -- Compiling architecture behavior of alucontrol
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+# -- Compiling entity control
+# -- Compiling architecture rom of control
+# -- Compiling entity cpu
+# -- Compiling architecture structure of cpu
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Compiling entity mem
+# -- Compiling architecture behavioral of mem
+# -- Compiling package mips32
+# -- Compiling package body mips32
+# -- Loading package mips32
+# -- Loading package std_logic_textio
+# -- Loading package mips32
+# -- Compiling entity mux2to1
+# -- Compiling architecture dataflow of mux2to1
+# -- Compiling entity reg
+# -- Compiling architecture behavior of reg
+# -- Compiling entity regfile
+# -- Compiling architecture behavior of regfile
+# -- Compiling entity tb_cpu
+# -- Compiling architecture behavior of tb_cpu
+# -- Compiling entity tb_regfile
+# -- Compiling architecture behavior of tb_regfile
+vsim work.tb_cpu
+# vsim work.tb_cpu 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.mips32(body)
+# Loading work.tb_cpu(behavior)#1
+# Loading ieee.numeric_std(body)
+# Loading work.cpu(structure)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mem(behavioral)#1
+add wave sim:/tb_cpu/*
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 5  Instance: /tb_cpu/cpu1/cpu
+# ** Note: 0 00000000 8C080000 00000000 10101010 00000000
+#    Time: 90 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 1 00000000 8C080000 00000000 10101010 00000000
+#    Time: 190 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 2 00200000 8C080000 00000000 10101010 10101010
+#    Time: 290 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 3 00200000 8C080000 00000000 10101010 10101010
+#    Time: 390 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 4 00200000 8C080000 00000000 10101010 10101010
+#    Time: 490 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 5 00200000 8C080000 00000000 10101010 10101010
+#    Time: 590 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 6 00200000 8C080000 00000000 10101010 10101010
+#    Time: 690 ns  Iteration: 0  Instance: /tb_cpu
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package mips32
+# -- Compiling package constantspkg
+# -- Compiling package body constantspkg
+# -- Loading package constantspkg
+# -- Loading package numeric_std
+# -- Compiling entity signextender
+# -- Compiling architecture behavioral of signextender
+# -- Compiling entity adder
+# -- Compiling architecture behavior of adder
+# -- Compiling entity alu
+# -- Compiling architecture behavior of alu
+# -- Compiling entity alucontrol
+# -- Compiling architecture behavior of alucontrol
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+# -- Compiling entity control
+# -- Compiling architecture rom of control
+# -- Compiling entity cpu
+# -- Compiling architecture structure of cpu
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Compiling entity mem
+# -- Compiling architecture behavioral of mem
+# -- Compiling package mips32
+# -- Compiling package body mips32
+# -- Loading package mips32
+# -- Loading package std_logic_textio
+# -- Loading package mips32
+# -- Compiling entity mux2to1
+# -- Compiling architecture dataflow of mux2to1
+# -- Compiling entity reg
+# -- Compiling architecture behavior of reg
+# -- Compiling entity regfile
+# -- Compiling architecture behavior of regfile
+# -- Compiling entity tb_cpu
+# -- Compiling architecture behavior of tb_cpu
+# -- Compiling entity tb_regfile
+# -- Compiling architecture behavior of tb_regfile
+vsim work.tb_cpu
+# vsim work.tb_cpu 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.mips32(body)
+# Loading work.tb_cpu(behavior)#1
+# Loading ieee.numeric_std(body)
+# Loading work.cpu(structure)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mem(behavioral)#1
+add wave sim:/tb_cpu/*
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 5  Instance: /tb_cpu/cpu1/cpu
+# ** Note: 0 00000000 8C080000 00000000 10101010 00000000
+#    Time: 90 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 1 00000000 8C080000 00000000 10101010 00000000
+#    Time: 190 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 2 00000004 8C090004 00000004 20202020 00000000
+#    Time: 290 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 3 00000008 11090002 EFEFEFF0 00000000 20202020
+#    Time: 390 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 4 0000000C 01094020 30303030 00000000 20202020
+#    Time: 490 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 5 00000010 AC080008 00000008 30303030 30303030
+#    Time: 590 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 6 00000014 01094022 10101010 00000000 20202020
+#    Time: 690 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 7 00000018 01094025 30303030 00000000 20202020
+#    Time: 790 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 8 0000001C 01094024 20202020 00000000 20202020
+#    Time: 890 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 9 00000020 0109402A 00000000 10101010 20202020
+#    Time: 990 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 10 00000024 01094027 DFDFDFDF 00000000 20202020
+#    Time: 1090 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 11 00000028 08000001 00000000 10101010 00000000
+#    Time: 1190 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 12 00000004 8C090004 00000004 20202020 20202020
+#    Time: 1290 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 13 00000008 11090002 BFBFBFBF 00000000 20202020
+#    Time: 1390 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 14 0000000C 01094020 FFFFFFFF 00000000 20202020
+#    Time: 1490 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 15 00000010 AC080008 00000008 FFFFFFFF FFFFFFFF
+#    Time: 1590 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 16 00000014 01094022 DFDFDFDF 00000000 20202020
+#    Time: 1690 ns  Iteration: 0  Instance: /tb_cpu
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package mips32
+# -- Compiling package constantspkg
+# -- Compiling package body constantspkg
+# -- Loading package constantspkg
+# -- Loading package numeric_std
+# -- Compiling entity signextender
+# -- Compiling architecture behavioral of signextender
+# -- Compiling entity adder
+# -- Compiling architecture behavior of adder
+# -- Compiling entity alu
+# -- Compiling architecture behavior of alu
+# -- Compiling entity alucontrol
+# -- Compiling architecture behavior of alucontrol
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+# -- Compiling entity control
+# -- Compiling architecture rom of control
+# -- Compiling entity cpu
+# -- Compiling architecture structure of cpu
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Compiling entity mem
+# -- Compiling architecture behavioral of mem
+# -- Compiling package mips32
+# -- Compiling package body mips32
+# -- Loading package mips32
+# -- Loading package std_logic_textio
+# -- Loading package mips32
+# -- Compiling entity mux2to1
+# -- Compiling architecture dataflow of mux2to1
+# -- Compiling entity reg
+# -- Compiling architecture behavior of reg
+# -- Compiling entity regfile
+# -- Compiling architecture behavior of regfile
+# -- Compiling entity tb_cpu
+# -- Compiling architecture behavior of tb_cpu
+# -- Compiling entity tb_regfile
+# -- Compiling architecture behavior of tb_regfile
+vsim work.tb_cpu
+# vsim work.tb_cpu 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading std.textio(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.mips32(body)
+# Loading work.tb_cpu(behavior)#1
+# Loading ieee.numeric_std(body)
+# Loading work.cpu(structure)#1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mem(behavioral)#1
+add wave sim:/tb_cpu/*
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/regfile1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/pc1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_cpu/cpu1/cpu1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/data_mem
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/inst_mem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/cpu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /tb_cpu/cpu1/pc2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 5  Instance: /tb_cpu/cpu1/cpu
+# ** Note: 0 00000000 8C080000 00000000 10101010 00000000
+#    Time: 90 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 1 00000000 8C080000 00000000 10101010 00000000
+#    Time: 190 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 2 00000004 8C090004 00000004 20202020 00000000
+#    Time: 290 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 3 00000008 11090002 EFEFEFF0 00000000 20202020
+#    Time: 390 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 4 0000000C 01094020 30303030 00000000 20202020
+#    Time: 490 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 5 00000010 AC080008 00000008 30303030 30303030
+#    Time: 590 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 6 00000014 01094022 10101010 00000000 20202020
+#    Time: 690 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 7 00000018 01094025 30303030 00000000 20202020
+#    Time: 790 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 8 0000001C 01094024 20202020 00000000 20202020
+#    Time: 890 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 9 00000020 0109402A 00000000 10101010 20202020
+#    Time: 990 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 10 00000024 01094027 DFDFDFDF 00000000 20202020
+#    Time: 1090 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 11 00000028 08000000 00000000 10101010 00000000
+#    Time: 1190 ns  Iteration: 0  Instance: /tb_cpu
+run
+# ** Note: 12 00000000 8C080000 00000000 10101010 DFDFDFDF
+#    Time: 1290 ns  Iteration: 0  Instance: /tb_cpu

@@ -1,0 +1,1438 @@
+# //  ModelSim SE-64 6.5c Aug 27 2009 Linux 2.6.32-504.el6.x86_64
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+vlib work
+# ** Warning: (vlib-34) Library already exists at "work".
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array_port
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Compiling entity alu
+# -- Compiling architecture structure of alu
+# ** Error: alu.vhd(126): (vcom-1136) Unknown identifier "result2".
+# ** Error: alu.vhd(182): VHDL Compiler exiting
+# /remote/Modelsim/6.5c/modeltech/linux_x86_64/vcom failed.
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array_port
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Compiling entity alu
+# -- Compiling architecture structure of alu
+# -- Loading package std_logic_unsigned
+# -- Compiling entity alu32
+# -- Compiling architecture structure of alu32
+# ** Error: alu32.vhd(107): near "Result": expecting "GENERATE" or "THEN"
+# ** Error: alu32.vhd(130): VHDL Compiler exiting
+# /remote/Modelsim/6.5c/modeltech/linux_x86_64/vcom failed.
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array_port
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Compiling entity alu
+# -- Compiling architecture structure of alu
+# -- Loading package std_logic_unsigned
+# -- Compiling entity alu32
+# -- Compiling architecture structure of alu32
+# ** Error: alu32.vhd(109): near "process": expecting "IF"
+# ** Error: and2.vhd(21): near "is": expecting ';'
+# ** Error: and2.vhd(24): near "in": expecting "WITH"
+# ** Error: and2.vhd(25): Statement cannot be labeled.
+# ** Error: and2.vhd(25): near "out": expecting "WITH"
+# ** Error: and2.vhd(27): Labels do not match: 'structure' and 'and2'.
+# ** Error: and2.vhd(27): VHDL Compiler exiting
+# /remote/Modelsim/6.5c/modeltech/linux_x86_64/vcom failed.
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array_port
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Compiling entity alu
+# -- Compiling architecture structure of alu
+# -- Loading package std_logic_unsigned
+# -- Compiling entity alu32
+# -- Compiling architecture structure of alu32
+# ** Error: alu32.vhd(109): near "process": expecting "IF"
+# ** Error: and2.vhd(21): near "is": expecting ';'
+# ** Error: and2.vhd(24): near "in": expecting "WITH"
+# ** Error: and2.vhd(25): Statement cannot be labeled.
+# ** Error: and2.vhd(25): near "out": expecting "WITH"
+# ** Error: and2.vhd(27): Labels do not match: 'structure' and 'and2'.
+# ** Error: and2.vhd(27): VHDL Compiler exiting
+# /remote/Modelsim/6.5c/modeltech/linux_x86_64/vcom failed.
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array_port
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Compiling entity alu
+# -- Compiling architecture structure of alu
+# -- Loading package std_logic_unsigned
+# -- Compiling entity alu32
+# -- Compiling architecture structure of alu32
+# ** Error: alu32.vhd(108): near "process": expecting "IF"
+# ** Error: and2.vhd(21): near "is": expecting ';'
+# ** Error: and2.vhd(24): near "in": expecting "WITH"
+# ** Error: and2.vhd(25): Statement cannot be labeled.
+# ** Error: and2.vhd(25): near "out": expecting "WITH"
+# ** Error: and2.vhd(27): Labels do not match: 'structure' and 'and2'.
+# ** Error: and2.vhd(27): VHDL Compiler exiting
+# /remote/Modelsim/6.5c/modeltech/linux_x86_64/vcom failed.
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array_port
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Compiling entity alu
+# -- Compiling architecture structure of alu
+# -- Loading package std_logic_unsigned
+# -- Compiling entity alu32
+# -- Compiling architecture structure of alu32
+# ** Error: alu32.vhd(112): near "structure": expecting "IF"
+# ** Error: and2.vhd(21): near "is": expecting ';'
+# ** Error: and2.vhd(24): near "in": expecting "WITH"
+# ** Error: and2.vhd(25): Statement cannot be labeled.
+# ** Error: and2.vhd(25): near "out": expecting "WITH"
+# ** Error: and2.vhd(34): Labels do not match: 'structure' and 'dataflow'.
+# ** Error: and2.vhd(34): VHDL Compiler exiting
+# /remote/Modelsim/6.5c/modeltech/linux_x86_64/vcom failed.
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array_port
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Compiling entity alu
+# -- Compiling architecture structure of alu
+# -- Loading package std_logic_unsigned
+# -- Compiling entity alu32
+# -- Compiling architecture structure of alu32
+# ** Error: alu32.vhd(108): near "process": expecting "IF"
+# ** Error: and2.vhd(21): near "is": expecting ';'
+# ** Error: and2.vhd(24): near "in": expecting "WITH"
+# ** Error: and2.vhd(25): Statement cannot be labeled.
+# ** Error: and2.vhd(25): near "out": expecting "WITH"
+# ** Error: and2.vhd(27): Labels do not match: 'structure' and 'and2'.
+# ** Error: and2.vhd(27): VHDL Compiler exiting
+# /remote/Modelsim/6.5c/modeltech/linux_x86_64/vcom failed.
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array_port
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Compiling entity alu
+# -- Compiling architecture structure of alu
+# -- Loading package std_logic_unsigned
+# -- Compiling entity alu32
+# -- Compiling architecture structure of alu32
+# ** Error: alu32.vhd(108): Cannot read output "result".
+# ** Error: alu32.vhd(110): near "process": expecting "IF"
+# ** Error: and2.vhd(21): near "is": expecting ';'
+# ** Error: and2.vhd(24): near "in": expecting "WITH"
+# ** Error: and2.vhd(25): Statement cannot be labeled.
+# ** Error: and2.vhd(25): near "out": expecting "WITH"
+# ** Error: and2.vhd(27): Labels do not match: 'structure' and 'and2'.
+# ** Error: and2.vhd(27): VHDL Compiler exiting
+# /remote/Modelsim/6.5c/modeltech/linux_x86_64/vcom failed.
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array_port
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Compiling entity alu
+# -- Compiling architecture structure of alu
+# -- Loading package std_logic_unsigned
+# -- Compiling entity alu32
+# -- Compiling architecture structure of alu32
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+# -- Compiling package array_port
+# -- Compiling package array_port
+# -- Compiling entity bs_vhdl
+# -- Compiling architecture behaviour of bs_vhdl
+# ** Error: bs_vhdl.vhd(33): near "end": expecting "BEGIN"
+# ** Error: bshift.vhd(2): VHDL Compiler exiting
+# /remote/Modelsim/6.5c/modeltech/linux_x86_64/vcom failed.
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array_port
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Compiling entity alu
+# -- Compiling architecture structure of alu
+# -- Loading package std_logic_unsigned
+# -- Compiling entity alu32
+# -- Compiling architecture structure of alu32
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+# -- Compiling package array_port
+# -- Compiling package array_port
+# -- Compiling entity bshift
+# -- Compiling architecture structure of bshift
+# -- Compiling entity fadder
+# -- Compiling architecture dataflow of fadder
+# -- Compiling entity inv2
+# -- Compiling architecture dataflow of inv2
+# -- Loading package array_port
+# -- Compiling entity mux
+# -- Compiling architecture dataflow of mux
+# ** Error: mux2:1.vhd(6): near ":": expecting "IS"
+# ** Warning: [4] mux2_1.vhd(1): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: mux2_1.vhd(1): VHDL Compiler exiting
+# /remote/Modelsim/6.5c/modeltech/linux_x86_64/vcom failed.
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array_port
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Compiling entity alu
+# -- Compiling architecture structure of alu
+# -- Loading package std_logic_unsigned
+# -- Compiling entity alu32
+# -- Compiling architecture structure of alu32
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+# -- Compiling package array_port
+# -- Compiling package array_port
+# -- Compiling entity bshift
+# -- Compiling architecture structure of bshift
+# -- Compiling entity fadder
+# -- Compiling architecture dataflow of fadder
+# -- Compiling entity inv2
+# -- Compiling architecture dataflow of inv2
+# -- Loading package array_port
+# -- Compiling entity mux
+# -- Compiling architecture dataflow of mux
+# -- Compiling entity mux2_1
+# -- Compiling architecture dataflow of mux2_1
+# -- Compiling entity or2
+# -- Compiling architecture dataflow of or2
+# -- Compiling entity right
+# -- Compiling architecture behaviour of right
+# -- Compiling entity slt
+# -- Compiling architecture dataflow of slt
+# -- Compiling entity xor2
+# -- Compiling architecture dataflow of xor2
+vsim work.alu32
+# vsim work.alu32 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.array_port
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.alu32(structure)#1
+# Loading work.alu(structure)#1
+force -freeze sim:/alu32/a 10101010111110001100000011001000 0
+force -freeze sim:/alu32/b 11110000000000000101010100000000 0
+force -freeze sim:/alu32/c 0 0
+force -freeze sim:/alu32/add_sub 0 0
+force -freeze sim:/alu32/sel 011 0
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /alu32
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array_port
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Compiling entity alu
+# -- Compiling architecture structure of alu
+# -- Loading package std_logic_unsigned
+# -- Compiling entity alu32
+# -- Compiling architecture structure of alu32
+# ** Error: alu32.vhd(103): Cannot read output "result".
+# ** Error: alu32.vhd(113): VHDL Compiler exiting
+# /remote/Modelsim/6.5c/modeltech/linux_x86_64/vcom failed.
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array_port
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Compiling entity alu
+# -- Compiling architecture structure of alu
+# -- Loading package std_logic_unsigned
+# -- Compiling entity alu32
+# -- Compiling architecture structure of alu32
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+# -- Compiling package array_port
+# -- Compiling package array_port
+# -- Compiling entity bshift
+# -- Compiling architecture structure of bshift
+# -- Compiling entity fadder
+# -- Compiling architecture dataflow of fadder
+# -- Compiling entity inv2
+# -- Compiling architecture dataflow of inv2
+# -- Loading package array_port
+# -- Compiling entity mux
+# -- Compiling architecture dataflow of mux
+# -- Compiling entity mux2_1
+# -- Compiling architecture dataflow of mux2_1
+# -- Compiling entity or2
+# -- Compiling architecture dataflow of or2
+# -- Compiling entity right
+# -- Compiling architecture behaviour of right
+# -- Compiling entity slt
+# -- Compiling architecture dataflow of slt
+# -- Compiling entity xor2
+# -- Compiling architecture dataflow of xor2
+vsim work.alu32
+# vsim work.alu32 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.array_port
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.alu32(structure)#1
+# Loading work.alu(structure)#1
+force -freeze sim:/alu32/a 10101010111110001100000011001000 0
+force -freeze sim:/alu32/b 11110000000000000101010100000000 0
+force -freeze sim:/alu32/c 0 0
+force -freeze sim:/alu32/sel 011 0
+force -freeze sim:/alu32/add_sub 1 0
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /alu32
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /alu32
+force -freeze sim:/alu32/sel 000 0
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 100 ns  Iteration: 0  Instance: /alu32
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array_port
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Compiling entity alu
+# -- Compiling architecture structure of alu
+# -- Loading package std_logic_unsigned
+# -- Compiling entity alu32
+# -- Compiling architecture structure of alu32
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+# -- Compiling package array_port
+# -- Compiling package array_port
+# -- Compiling entity bshift
+# -- Compiling architecture structure of bshift
+# -- Compiling entity fadder
+# -- Compiling architecture dataflow of fadder
+# -- Compiling entity inv2
+# -- Compiling architecture dataflow of inv2
+# -- Loading package array_port
+# -- Compiling entity mux
+# -- Compiling architecture dataflow of mux
+# -- Compiling entity mux2_1
+# -- Compiling architecture dataflow of mux2_1
+# -- Compiling entity or2
+# -- Compiling architecture dataflow of or2
+# -- Compiling entity right
+# -- Compiling architecture behaviour of right
+# -- Compiling entity slt
+# -- Compiling architecture dataflow of slt
+# -- Compiling entity xor2
+# -- Compiling architecture dataflow of xor2
+vsim work.alu32
+# vsim work.alu32 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.array_port
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.alu32(structure)#1
+# Loading work.alu(structure)#1
+force -freeze sim:/alu32/a 10101010111110001100000011001000 0
+force -freeze sim:/alu32/b 11110000000000000101010100000000 0
+force -freeze sim:/alu32/c 0 0
+force -freeze sim:/alu32/add_sub 1 0
+force -freeze sim:/alu32/sel 011 0
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /alu32
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /alu32
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array_port
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Compiling entity alu
+# -- Compiling architecture structure of alu
+# -- Loading package std_logic_unsigned
+# -- Compiling entity alu32
+# -- Compiling architecture structure of alu32
+# ** Error: alu32.vhd(93): Signal "result" is type ieee.std_logic_1164.std_logic_vector; expecting type ieee.std_logic_1164.std_logic.
+# ** Error: alu32.vhd(116): VHDL Compiler exiting
+# /remote/Modelsim/6.5c/modeltech/linux_x86_64/vcom failed.
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array_port
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Compiling entity alu
+# -- Compiling architecture structure of alu
+# -- Loading package std_logic_unsigned
+# -- Compiling entity alu32
+# -- Compiling architecture structure of alu32
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+# -- Compiling package array_port
+# -- Compiling package array_port
+# -- Compiling entity bshift
+# -- Compiling architecture structure of bshift
+# -- Compiling entity fadder
+# -- Compiling architecture dataflow of fadder
+# -- Compiling entity inv2
+# -- Compiling architecture dataflow of inv2
+# -- Loading package array_port
+# -- Compiling entity mux
+# -- Compiling architecture dataflow of mux
+# -- Compiling entity mux2_1
+# -- Compiling architecture dataflow of mux2_1
+# -- Compiling entity or2
+# -- Compiling architecture dataflow of or2
+# -- Compiling entity right
+# -- Compiling architecture behaviour of right
+# -- Compiling entity slt
+# -- Compiling architecture dataflow of slt
+# -- Compiling entity xor2
+# -- Compiling architecture dataflow of xor2
+vsim work.alu32
+# vsim work.alu32 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.array_port
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.alu32(structure)#1
+# Loading work.alu(structure)#1
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array_port
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Compiling entity alu
+# -- Compiling architecture structure of alu
+# -- Loading package std_logic_unsigned
+# -- Compiling entity alu32
+# -- Compiling architecture structure of alu32
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+# -- Compiling package array_port
+# -- Compiling package array_port
+# -- Compiling entity bshift
+# -- Compiling architecture structure of bshift
+# -- Compiling entity fadder
+# -- Compiling architecture dataflow of fadder
+# -- Compiling entity inv2
+# -- Compiling architecture dataflow of inv2
+# -- Loading package array_port
+# -- Compiling entity mux
+# -- Compiling architecture dataflow of mux
+# -- Compiling entity mux2_1
+# -- Compiling architecture dataflow of mux2_1
+# -- Compiling entity or2
+# -- Compiling architecture dataflow of or2
+# -- Compiling entity right
+# -- Compiling architecture behaviour of right
+# -- Compiling entity slt
+# -- Compiling architecture dataflow of slt
+# -- Compiling entity xor2
+# -- Compiling architecture dataflow of xor2
+vsim work.alu32
+# vsim work.alu32 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.array_port
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.alu32(structure)#1
+# Loading work.alu(structure)#1
+force -freeze sim:/alu32/a 10101010111110001100000011001000 0
+force -freeze sim:/alu32/b 11110000000000000101010100000000 0
+force -freeze sim:/alu32/c 0 0
+force -freeze sim:/alu32/sel 011 0
+force -freeze sim:/alu32/add_sub 1 0
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /alu32
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /alu32
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array_port
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Compiling entity alu
+# -- Compiling architecture structure of alu
+# -- Loading package std_logic_unsigned
+# -- Compiling entity alu32
+# -- Compiling architecture structure of alu32
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+# -- Compiling package array_port
+# -- Compiling package array_port
+# -- Compiling entity bshift
+# -- Compiling architecture structure of bshift
+# -- Compiling entity fadder
+# -- Compiling architecture dataflow of fadder
+# -- Compiling entity inv2
+# -- Compiling architecture dataflow of inv2
+# -- Loading package array_port
+# -- Compiling entity mux
+# -- Compiling architecture dataflow of mux
+# -- Compiling entity mux2_1
+# -- Compiling architecture dataflow of mux2_1
+# -- Compiling entity or2
+# -- Compiling architecture dataflow of or2
+# -- Compiling entity right
+# -- Compiling architecture behaviour of right
+# -- Compiling entity slt
+# -- Compiling architecture dataflow of slt
+# -- Compiling entity xor2
+# -- Compiling architecture dataflow of xor2
+vsim work.alu32
+# vsim work.alu32 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.array_port
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.alu32(structure)#1
+# Loading work.alu(structure)#1
+force -freeze sim:/alu32/a 10101010111110001100000011001000 0
+force -freeze sim:/alu32/b 11110000000000000101010100000000 0
+force -freeze sim:/alu32/c 0 0
+force -freeze sim:/alu32/sel 011 0
+force -freeze sim:/alu32/add_sub 1 0
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /alu32
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /alu32
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 7  Instance: /alu32
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 8  Instance: /alu32
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 9  Instance: /alu32
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 10  Instance: /alu32
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 11  Instance: /alu32
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 12  Instance: /alu32
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array_port
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Compiling entity alu
+# -- Compiling architecture structure of alu
+# -- Loading package std_logic_unsigned
+# -- Compiling entity alu32
+# -- Compiling architecture structure of alu32
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+# -- Compiling package array_port
+# -- Compiling package array_port
+# -- Compiling entity bshift
+# -- Compiling architecture structure of bshift
+# -- Compiling entity fadder
+# -- Compiling architecture dataflow of fadder
+# -- Compiling entity inv2
+# -- Compiling architecture dataflow of inv2
+# -- Loading package array_port
+# -- Compiling entity mux
+# -- Compiling architecture dataflow of mux
+# -- Compiling entity mux2_1
+# -- Compiling architecture dataflow of mux2_1
+# -- Compiling entity or2
+# -- Compiling architecture dataflow of or2
+# -- Compiling entity right
+# -- Compiling architecture behaviour of right
+# -- Compiling entity slt
+# -- Compiling architecture dataflow of slt
+# -- Compiling entity xor2
+# -- Compiling architecture dataflow of xor2
+vsim work.alu32
+# vsim work.alu32 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.array_port
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.alu32(structure)#1
+# Loading work.alu(structure)#1
+force -freeze sim:/alu32/a 10101010111110001100000011001000 0
+force -freeze sim:/alu32/b 11110000000000000101010100000000 0
+force -freeze sim:/alu32/c 0 0
+force -freeze sim:/alu32/add_sub 1 0
+force -freeze sim:/alu32/sel 011 0
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /alu32
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /alu32
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 7  Instance: /alu32
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 8  Instance: /alu32
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 9  Instance: /alu32
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 10  Instance: /alu32
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 11  Instance: /alu32
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 12  Instance: /alu32
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array_port
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Compiling entity alu
+# -- Compiling architecture structure of alu
+# -- Loading package std_logic_unsigned
+# -- Compiling entity alu32
+# -- Compiling architecture structure of alu32
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+# -- Compiling package array_port
+# -- Compiling package array_port
+# -- Compiling entity bshift
+# -- Compiling architecture structure of bshift
+# -- Compiling entity fadder
+# -- Compiling architecture dataflow of fadder
+# -- Compiling entity inv2
+# -- Compiling architecture dataflow of inv2
+# -- Loading package array_port
+# -- Compiling entity mux
+# -- Compiling architecture dataflow of mux
+# -- Compiling entity mux2_1
+# -- Compiling architecture dataflow of mux2_1
+# -- Compiling entity or2
+# -- Compiling architecture dataflow of or2
+# -- Compiling entity right
+# -- Compiling architecture behaviour of right
+# -- Compiling entity slt
+# -- Compiling architecture dataflow of slt
+# -- Compiling entity xor2
+# -- Compiling architecture dataflow of xor2
+vsim work.alu32
+# vsim work.alu32 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.array_port
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.alu32(structure)#1
+# Loading work.alu(structure)#1
+force -freeze sim:/alu32/a 10101010111110001100000011001000 0
+force -freeze sim:/alu32/b 11110000000000000101010100000000 0
+force -freeze sim:/alu32/c 0 0
+force -freeze sim:/alu32/add_sub 1 0
+force -freeze sim:/alu32/sel 011 0
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /alu32
+force -freeze sim:/alu32/sel 111 0
+run
+force -freeze sim:/alu32/sel 011 0
+run
+quit -sim
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array_port
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Compiling entity alu
+# -- Compiling architecture structure of alu
+# -- Loading package std_logic_unsigned
+# -- Compiling entity alu32
+# -- Compiling architecture structure of alu32
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+# -- Compiling package array_port
+# -- Compiling package array_port
+# -- Compiling entity bshift
+# -- Compiling architecture structure of bshift
+# -- Compiling entity fadder
+# -- Compiling architecture dataflow of fadder
+# -- Compiling entity inv2
+# -- Compiling architecture dataflow of inv2
+# -- Loading package array_port
+# -- Compiling entity mux
+# -- Compiling architecture dataflow of mux
+# -- Compiling entity mux2_1
+# -- Compiling architecture dataflow of mux2_1
+# -- Compiling entity or2
+# -- Compiling architecture dataflow of or2
+# -- Compiling entity right
+# -- Compiling architecture behaviour of right
+# -- Compiling entity slt
+# -- Compiling architecture dataflow of slt
+# -- Compiling entity xor2
+# -- Compiling architecture dataflow of xor2
+vsim -novopt work.alu32
+# vsim -novopt work.alu32 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Refreshing /home/averma/cpre381/Project-A/work.array_port
+# Loading work.array_port
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Refreshing /home/averma/cpre381/Project-A/work.alu32(structure)
+# Loading work.alu32(structure)
+# Refreshing /home/averma/cpre381/Project-A/work.inv2(dataflow)
+# Loading work.inv2(dataflow)
+# Refreshing /home/averma/cpre381/Project-A/work.alu(structure)
+# Loading work.alu(structure)
+# Refreshing /home/averma/cpre381/Project-A/work.and2(dataflow)
+# Loading work.and2(dataflow)
+# Refreshing /home/averma/cpre381/Project-A/work.or2(dataflow)
+# Loading work.or2(dataflow)
+# Refreshing /home/averma/cpre381/Project-A/work.xor2(dataflow)
+# Loading work.xor2(dataflow)
+# Refreshing /home/averma/cpre381/Project-A/work.fadder(dataflow)
+# Loading work.fadder(dataflow)
+# Refreshing /home/averma/cpre381/Project-A/work.mux(dataflow)
+# Loading work.mux(dataflow)
+add wave \
+{sim:/alu32/a } \
+{sim:/alu32/b } \
+{sim:/alu32/c } \
+{sim:/alu32/add_sub } \
+{sim:/alu32/sel } \
+{sim:/alu32/carry } \
+{sim:/alu32/overflow } \
+{sim:/alu32/zero } \
+{sim:/alu32/result } \
+{sim:/alu32/temp_c } \
+{sim:/alu32/s2 } \
+{sim:/alu32/s3 } \
+{sim:/alu32/s4 } \
+{sim:/alu32/s5 } \
+{sim:/alu32/less } \
+{sim:/alu32/r1 } \
+{sim:/alu32/r2 } 
+force -freeze sim:/alu32/a x\"FFFFFFFF\" 0
+force -freeze sim:/alu32/b x\"FFFFFFFF\" 0
+force -freeze sim:/alu32/c 0 0
+force -freeze sim:/alu32/add_sub 1 0
+force -freeze sim:/alu32/sel 011 0
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /alu32
+run
+run
+run
+run
+run
+run
+force -freeze sim:/alu32/sel 111 0
+run
+run
+run
+run
+run
+run
+run
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array_port
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Compiling entity alu
+# -- Compiling architecture structure of alu
+# -- Loading package std_logic_unsigned
+# -- Compiling entity alu32
+# -- Compiling architecture mixed of alu32
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+# -- Compiling package array_port
+# -- Compiling package array_port
+# -- Compiling entity bshift
+# -- Compiling architecture structure of bshift
+# -- Compiling entity fadder
+# -- Compiling architecture dataflow of fadder
+# -- Compiling entity inv2
+# -- Compiling architecture dataflow of inv2
+# -- Loading package array_port
+# -- Compiling entity mux
+# -- Compiling architecture dataflow of mux
+# -- Compiling entity mux2_1
+# -- Compiling architecture dataflow of mux2_1
+# -- Compiling entity or2
+# -- Compiling architecture dataflow of or2
+# -- Compiling entity right
+# -- Compiling architecture behaviour of right
+# -- Compiling entity slt
+# -- Compiling architecture dataflow of slt
+# -- Compiling entity xor2
+# -- Compiling architecture dataflow of xor2
+vsim work.alu32
+# vsim work.alu32 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.array_port
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.alu32(mixed)#1
+# Loading work.alu(structure)#1
+force -freeze sim:/alu32/a x\"FFFFFFFF\" 0
+force -freeze sim:/alu32/b x\"FFFFFFFF\" 0
+force -freeze sim:/alu32/c 0 0
+force -freeze sim:/alu32/add_sub 1 0
+force -freeze sim:/alu32/sel 011 0
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /alu32
+run
+run
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array_port
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Compiling entity alu
+# -- Compiling architecture structure of alu
+# -- Loading package std_logic_unsigned
+# -- Compiling entity alu32
+# -- Compiling architecture mixed of alu32
+# ** Error: alu32.vhd(117): near "1": expecting ';'
+# ** Warning: [2] alu32.vhd(118): (vcom-1090) Possible infinite loop: Process contains no WAIT statement.
+# ** Error: alu32.vhd(122): VHDL Compiler exiting
+# /remote/Modelsim/6.5c/modeltech/linux_x86_64/vcom failed.
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array_port
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Compiling entity alu
+# -- Compiling architecture structure of alu
+# -- Loading package std_logic_unsigned
+# -- Compiling entity alu32
+# -- Compiling architecture mixed of alu32
+# ** Warning: [4] alu32.vhd(117): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: alu32.vhd(117): near "1": expecting ';'
+# ** Warning: [2] alu32.vhd(118): (vcom-1090) Possible infinite loop: Process contains no WAIT statement.
+# ** Error: alu32.vhd(122): VHDL Compiler exiting
+# /remote/Modelsim/6.5c/modeltech/linux_x86_64/vcom failed.
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array_port
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Compiling entity alu
+# -- Compiling architecture structure of alu
+# -- Loading package std_logic_unsigned
+# -- Compiling entity alu32
+# -- Compiling architecture mixed of alu32
+# ** Error: alu32.vhd(117): near "10": expecting ';'
+# ** Warning: [2] alu32.vhd(118): (vcom-1090) Possible infinite loop: Process contains no WAIT statement.
+# ** Error: alu32.vhd(122): VHDL Compiler exiting
+# /remote/Modelsim/6.5c/modeltech/linux_x86_64/vcom failed.
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array_port
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Compiling entity alu
+# -- Compiling architecture structure of alu
+# -- Loading package std_logic_unsigned
+# -- Compiling entity alu32
+# -- Compiling architecture mixed of alu32
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+# -- Compiling package array_port
+# -- Compiling package array_port
+# -- Compiling entity bshift
+# -- Compiling architecture structure of bshift
+# -- Compiling entity fadder
+# -- Compiling architecture dataflow of fadder
+# -- Compiling entity inv2
+# -- Compiling architecture dataflow of inv2
+# -- Loading package array_port
+# -- Compiling entity mux
+# -- Compiling architecture dataflow of mux
+# -- Compiling entity mux2_1
+# -- Compiling architecture dataflow of mux2_1
+# -- Compiling entity or2
+# -- Compiling architecture dataflow of or2
+# -- Compiling entity right
+# -- Compiling architecture behaviour of right
+# -- Compiling entity slt
+# -- Compiling architecture dataflow of slt
+# -- Compiling entity xor2
+# -- Compiling architecture dataflow of xor2
+vsim -novopt work.alu32
+# vsim -novopt work.alu32 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Refreshing /home/averma/cpre381/Project-A/work.array_port
+# Loading work.array_port
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Refreshing /home/averma/cpre381/Project-A/work.alu32(mixed)
+# Loading work.alu32(mixed)
+# Refreshing /home/averma/cpre381/Project-A/work.inv2(dataflow)
+# Loading work.inv2(dataflow)
+# Refreshing /home/averma/cpre381/Project-A/work.alu(structure)
+# Loading work.alu(structure)
+# Refreshing /home/averma/cpre381/Project-A/work.and2(dataflow)
+# Loading work.and2(dataflow)
+# Refreshing /home/averma/cpre381/Project-A/work.or2(dataflow)
+# Loading work.or2(dataflow)
+# Refreshing /home/averma/cpre381/Project-A/work.xor2(dataflow)
+# Loading work.xor2(dataflow)
+# Refreshing /home/averma/cpre381/Project-A/work.fadder(dataflow)
+# Loading work.fadder(dataflow)
+# Refreshing /home/averma/cpre381/Project-A/work.mux(dataflow)
+# Loading work.mux(dataflow)
+add wave \
+{sim:/alu32/a } \
+{sim:/alu32/b } \
+{sim:/alu32/c } \
+{sim:/alu32/add_sub } \
+{sim:/alu32/sel } \
+{sim:/alu32/carry } \
+{sim:/alu32/overflow } \
+{sim:/alu32/zero } \
+{sim:/alu32/result } \
+{sim:/alu32/temp_c } \
+{sim:/alu32/s2 } \
+{sim:/alu32/s3 } \
+{sim:/alu32/s4 } \
+{sim:/alu32/s5 } \
+{sim:/alu32/less } \
+{sim:/alu32/r1 } \
+{sim:/alu32/r2 } 
+force -freeze sim:/alu32/a x\"FFFFFFFF\" 0
+force -freeze sim:/alu32/b x\"00000000\" 0
+force -freeze sim:/alu32/c 0 0
+force -freeze sim:/alu32/add_sub 1 0
+force -freeze sim:/alu32/sel 011 0
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /alu32
+run
+run
+run
+run
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array_port
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Compiling entity alu
+# -- Compiling architecture structure of alu
+# -- Loading package std_logic_unsigned
+# -- Compiling entity alu32
+# -- Compiling architecture mixed of alu32
+# ** Error: alu32.vhd(107): No feasible entries for infix operator "=".
+# ** Error: alu32.vhd(107): Bad expression in left operand of infix expression "and".
+# ** Error: alu32.vhd(107): Type error resolving infix expression "and" as type std.standard.boolean.
+# ** Error: alu32.vhd(122): VHDL Compiler exiting
+# /remote/Modelsim/6.5c/modeltech/linux_x86_64/vcom failed.
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array_port
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Compiling entity alu
+# -- Compiling architecture structure of alu
+# -- Loading package std_logic_unsigned
+# -- Compiling entity alu32
+# -- Compiling architecture mixed of alu32
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+# -- Compiling package array_port
+# -- Compiling package array_port
+# -- Compiling entity bshift
+# -- Compiling architecture structure of bshift
+# -- Compiling entity fadder
+# -- Compiling architecture dataflow of fadder
+# -- Compiling entity inv2
+# -- Compiling architecture dataflow of inv2
+# -- Loading package array_port
+# -- Compiling entity mux
+# -- Compiling architecture dataflow of mux
+# -- Compiling entity mux2_1
+# -- Compiling architecture dataflow of mux2_1
+# -- Compiling entity or2
+# -- Compiling architecture dataflow of or2
+# -- Compiling entity right
+# -- Compiling architecture behaviour of right
+# -- Compiling entity slt
+# -- Compiling architecture dataflow of slt
+# -- Compiling entity xor2
+# -- Compiling architecture dataflow of xor2
+vsim work.alu32
+# vsim work.alu32 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.array_port
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.alu32(mixed)#1
+# Loading work.alu(structure)#1
+force -freeze sim:/alu32/a x\"FFFFFFFF\" 0
+force -freeze sim:/alu32/b x\"00000000\" 0
+force -freeze sim:/alu32/c 0 0
+force -freeze sim:/alu32/add_sub 1 0
+force -freeze sim:/alu32/sel 011 0
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /alu32
+force -freeze sim:/alu32/a 01111111111111111111111111111111 0
+run
+force -freeze sim:/alu32/sel 000 0
+run
+force -freeze sim:/alu32/sel 001 0
+run
+force -freeze sim:/alu32/sel 011 0
+run
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array_port
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Compiling entity alu
+# -- Compiling architecture structure of alu
+# -- Loading package std_logic_unsigned
+# -- Compiling entity alu32
+# -- Compiling architecture mixed of alu32
+# ** Error: alu32.vhd(103): (vcom-1226) A wait statement is illegal for a process with a sensitivity list.
+# ** Error: alu32.vhd(122): VHDL Compiler exiting
+# /remote/Modelsim/6.5c/modeltech/linux_x86_64/vcom failed.
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array_port
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Compiling entity alu
+# -- Compiling architecture structure of alu
+# -- Loading package std_logic_unsigned
+# -- Compiling entity alu32
+# -- Compiling architecture mixed of alu32
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+# -- Compiling package array_port
+# -- Compiling package array_port
+# -- Compiling entity bshift
+# -- Compiling architecture structure of bshift
+# -- Compiling entity fadder
+# -- Compiling architecture dataflow of fadder
+# -- Compiling entity inv2
+# -- Compiling architecture dataflow of inv2
+# -- Loading package array_port
+# -- Compiling entity mux
+# -- Compiling architecture dataflow of mux
+# -- Compiling entity mux2_1
+# -- Compiling architecture dataflow of mux2_1
+# -- Compiling entity or2
+# -- Compiling architecture dataflow of or2
+# -- Compiling entity right
+# -- Compiling architecture behaviour of right
+# -- Compiling entity slt
+# -- Compiling architecture dataflow of slt
+# -- Compiling entity xor2
+# -- Compiling architecture dataflow of xor2
+vsim work.alu32
+# vsim work.alu32 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.array_port
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.alu32(mixed)#1
+# Loading work.alu(structure)#1
+force -freeze sim:/alu32/sel 011 0
+force -freeze sim:/alu32/a 01111111111111111111111111111111 0
+force -freeze sim:/alu32/add_sub 1 0
+force -freeze sim:/alu32/b x\"00000000\" 0
+force -freeze sim:/alu32/c 0 0
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /alu32
+force -freeze sim:/alu32/sel 000 0
+run
+force -freeze sim:/alu32/sel 011 0
+run
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array_port
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Compiling entity alu
+# -- Compiling architecture structure of alu
+# -- Loading package std_logic_unsigned
+# -- Compiling entity alu32
+# -- Compiling architecture mixed of alu32
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+# -- Compiling package array_port
+# -- Compiling package array_port
+# -- Compiling entity bshift
+# -- Compiling architecture structure of bshift
+# -- Compiling entity fadder
+# -- Compiling architecture dataflow of fadder
+# -- Compiling entity inv2
+# -- Compiling architecture dataflow of inv2
+# -- Loading package array_port
+# -- Compiling entity mux
+# -- Compiling architecture dataflow of mux
+# -- Compiling entity mux2_1
+# -- Compiling architecture dataflow of mux2_1
+# -- Compiling entity or2
+# -- Compiling architecture dataflow of or2
+# -- Compiling entity right
+# -- Compiling architecture behaviour of right
+# -- Compiling entity slt
+# -- Compiling architecture dataflow of slt
+# -- Compiling entity xor2
+# -- Compiling architecture dataflow of xor2
+vsim work.alu32
+# vsim work.alu32 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.array_port
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.alu32(mixed)#1
+# Loading work.alu(structure)#1
+force -freeze sim:/alu32/a x\"0FFFFFFF\" 0
+force -freeze sim:/alu32/b x\"00000000\" 0
+force -freeze sim:/alu32/c 0 0
+force -freeze sim:/alu32/add_sub 1 0
+force -freeze sim:/alu32/sel 011 0
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /alu32
+force -freeze sim:/alu32/a 10001111111111111111111111111111 0
+run
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array_port
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Compiling entity alu
+# -- Compiling architecture structure of alu
+# -- Loading package std_logic_unsigned
+# -- Compiling entity alu32
+# -- Compiling architecture mixed of alu32
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+# -- Compiling package array_port
+# -- Compiling package array_port
+# -- Compiling entity bshift
+# -- Compiling architecture structure of bshift
+# -- Compiling entity fadder
+# -- Compiling architecture dataflow of fadder
+# -- Compiling entity inv2
+# -- Compiling architecture dataflow of inv2
+# -- Loading package array_port
+# -- Compiling entity mux
+# -- Compiling architecture dataflow of mux
+# -- Compiling entity mux2_1
+# -- Compiling architecture dataflow of mux2_1
+# -- Compiling entity or2
+# -- Compiling architecture dataflow of or2
+# -- Compiling entity right
+# -- Compiling architecture behaviour of right
+# -- Compiling entity slt
+# -- Compiling architecture dataflow of slt
+# -- Compiling entity xor2
+# -- Compiling architecture dataflow of xor2
+vsim work.alu32
+# vsim work.alu32 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.array_port
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.alu32(mixed)#1
+# Loading work.alu(structure)#1
+force -freeze sim:/alu32/b x\"00000000\" 0
+force -freeze sim:/alu32/c 0 0
+force -freeze sim:/alu32/a 10001111111111111111111111111111 0
+force -freeze sim:/alu32/sel 011 0
+force -freeze sim:/alu32/add_sub 1 0
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /alu32
+force -freeze sim:/alu32/a 00001111111111111111111111111111 0
+run
+force -freeze sim:/alu32/sel 000 0
+run
+force -freeze sim:/alu32/sel 001 0
+run
+force -freeze sim:/alu32/sel 010 0
+run
+force -freeze sim:/alu32/sel 100 0
+run
+force -freeze sim:/alu32/sel 101 0
+run
+force -freeze sim:/alu32/sel 110 0
+run
+force -freeze sim:/alu32/b 00000000001000000000000000000000 0
+run
+force -freeze sim:/alu32/add_sub 0 0
+run
+vcom -work work *.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array_port
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Compiling entity alu
+# -- Compiling architecture structure of alu
+# -- Loading package std_logic_unsigned
+# -- Compiling entity alu32
+# -- Compiling architecture mixed of alu32
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+# -- Compiling package array_port
+# -- Compiling package array_port
+# -- Compiling entity bshift
+# -- Compiling architecture structure of bshift
+# -- Compiling entity fadder
+# -- Compiling architecture dataflow of fadder
+# -- Compiling entity inv2
+# -- Compiling architecture dataflow of inv2
+# -- Loading package array_port
+# -- Compiling entity mux
+# -- Compiling architecture dataflow of mux
+# -- Compiling entity mux2_1
+# -- Compiling architecture dataflow of mux2_1
+# -- Compiling entity or2
+# -- Compiling architecture dataflow of or2
+# -- Compiling entity right
+# -- Compiling architecture behaviour of right
+# -- Compiling entity slt
+# -- Compiling architecture dataflow of slt
+# -- Compiling entity xor2
+# -- Compiling architecture dataflow of xor2
+vsim work.bshift
+# vsim work.bshift 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.bshift(structure)#1
+force -freeze sim:/bshift/left 0 0
+force -freeze sim:/bshift/logical 0 0
+force -freeze sim:/bshift/shift 00010 0
+force -freeze sim:/bshift/input 11110000010101010000000011011111 0
+run
+force -freeze sim:/bshift/logical 1 0
+run
+force -freeze sim:/bshift/left 1 0
+run
+vcom -work work alu.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array_port
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Compiling entity alu
+# -- Compiling architecture structure of alu
+# ** Error: alu.vhd(158): Cannot read output "result".
+# ** Error: alu.vhd(182): VHDL Compiler exiting
+# /remote/Modelsim/6.5c/modeltech/linux_x86_64/vcom failed.
+vcom -work work alu.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array_port
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Compiling entity alu
+# -- Compiling architecture structure of alu
+vcom -work work alu32.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array_port
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity alu32
+# -- Compiling architecture mixed of alu32
+# ** Error: alu32.vhd(117): Cannot read output "result".
+# ** Error: alu32.vhd(122): VHDL Compiler exiting
+# /remote/Modelsim/6.5c/modeltech/linux_x86_64/vcom failed.
+vcom -work work alu32.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array_port
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity alu32
+# -- Compiling architecture mixed of alu32
+vsim work.alu32
+# vsim work.alu32 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.array_port
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.alu32(mixed)#1
+# Loading work.alu(structure)#1
+force -freeze sim:/alu32/a 0000000000000000000000000000000 0
+# Value length (31) does not equal array index length (32).
+# 
+# ** Error: (vsim-4011) Invalid force value: 0000000000000000000000000000000 0.
+# 
+force -freeze sim:/alu32/a 00000000000000000000000000000000 0
+force -freeze sim:/alu32/b 00000000000000000000000000000000 0
+force -freeze sim:/alu32/c 0 0
+force -freeze sim:/alu32/add_sub 0 0
+force -freeze sim:/alu32/sel 000 0
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /alu32
+force -freeze sim:/alu32/a 11100000000000000000000000000000 0
+force -freeze sim:/alu32/b 11100000000000000000000000000000 0
+run
+vcom -work work alu32.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package array_port
+# -- Loading package numeric_std
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity alu32
+# -- Compiling architecture mixed of alu32
+vsim work.alu32
+# vsim work.alu32 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.array_port
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.alu32(mixed)#1
+# Loading work.alu(structure)#1
+force -freeze sim:/alu32/a 11100000000000000000000000000000 0
+force -freeze sim:/alu32/b 11100000000000000000000000000000 0
+force -freeze sim:/alu32/sel 000 0
+force -freeze sim:/alu32/add_sub 0 0
+force -freeze sim:/alu32/c 0 0
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /alu32
+force -freeze sim:/alu32/add_sub 1 0
+force -freeze sim:/alu32/sel 011 0
+run
+force -freeze sim:/alu32/b 00000000000000000000000000000000 0
+force -freeze sim:/alu32/sel 000 0
+run

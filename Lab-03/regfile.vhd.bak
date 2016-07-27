@@ -1,0 +1,129 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use work.array_port.all;
+
+ENTITY regfile IS
+    PORT (--R1, 
+    R2 : IN std_logic;
+          R1_en, R2_en     : IN std_logic_vector(4 downto 0);
+         R1_data, R2_data : OUT std_logic_vector(31 DOWNTO 0);
+        --  W_addr           : IN std_logic_vector(4 DOWNTO 0);
+          W_en             : IN std_logic;
+         -- W_data           : IN std_logic_vector(31 DOWNTO 0);
+          Clk, Rst         : IN std_logic);
+END regfile;
+
+Architecture structure of regfile is
+
+component dec
+    port
+        (D_IN: in std_logic_vector(4 downto 0);
+        FOUT: out std_logic_vector(31 downto 0));
+        
+      end component;
+      
+      
+ component reg 
+          port(i_CLK   : in std_logic;     -- Clock input
+          i_RST        : in std_logic;     -- Reset input
+          i_WE         : in std_logic;     -- Write enable input
+          i_D          : in std_logic_vector(31 downto 0);     -- Data value input
+          o_Q          : out std_logic_vector(31 downto 0));   -- Data value output
+          
+        end component;
+        
+ component mux_32bit 
+           port( sel : in std_logic_vector(4 downto 0);
+                 i_D : in array32_bit(31 downto 0);
+                 o_D : out std_logic_vector(31 downto 0));
+                 
+      end component;
+      
+      --signal s_CLK, s_RST  : std_logic;
+  signal s_D : std_logic_vector(4 downto 0);
+  signal s_E : std_logic_vector(31 downto 0);
+  signal s_W : work.array_port.array32_bit(31 downto 0);
+  
+begin
+ 
+  regfile: dec
+  port map( D_IN => s_D,
+            Fout => s_E);
+  
+ 
+ process
+ begin 
+  G5: for i in 0 to 31 generate
+  regfile_i: reg
+ 
+  with s_D select
+ i_D(i) <= i_D(0) when "00000",
+        i_D(1) when "00001",
+       i_D(2) when "00010",
+        i_D(3) when "00011",
+        i_D(4) when "00100",
+        i_D(5) when "00101",
+        i_D(6) when "00110",
+        i_D(7) when "00111",
+       i_D(8) when "01000",
+        i_D(9) when "01001",
+        i_D(10) when "01010",
+        i_D(11) when "01011",
+        i_D(12) when "01100",
+        i_D(13) when "01101",
+        i_D(14) when "01110",
+        i_D(15) when "01111",
+        i_D(16) when "10000",
+        i_D(17) when "10001",
+        i_D(18) when "10010",
+        i_D(19) when "10011",
+        i_D(20) when "10100",
+        i_D(21) when "10101",
+        i_D(22) when "10110",
+        i_D(23) when "10111",
+        i_D(24) when "11000",
+        i_D(25) when "11001",
+        i_D(26) when "11010",
+        i_D(27) when "11011",
+        i_D(28) when "11100",
+        i_D(29) when "11101",
+        i_D(30) when "11110",
+        i_D(31) when "11111";
+        
+      end generate;
+      end process;
+        
+        
+    G0: for i in 0 to 31 generate
+    regfile: reg
+  port map( i_CLK => CLK,
+            i_RST => RST,
+            i_WE  => W_en,
+            i_D => s_E,
+            o_Q =>  s_W);  
+            
+      end generate;
+      
+      
+    G1: for i in 0 to 31 generate
+    regfile: mux_32bit
+  port map(sel => R1_en,
+           i_D => s_W,
+           o_D => R1_data);
+           
+       end generate;      
+        
+        
+        
+  G2: for i in 0 to 31 generate
+    regfile: mux_32bit
+  port map(sel => R2_en,
+           i_D => s_W,
+           o_D => R2_data);
+           
+       end generate;  
+       
+     end structure;        
+        
+        
+           

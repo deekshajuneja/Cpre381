@@ -1,0 +1,112 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/averma/cpre381/Lab-03
+T_opt
+Z1 VRRX3MJ0NmFb:ZlhX4EcPB3
+Z2 04 3 9 work reg structure 1
+Z3 =1--5423810d-36872-1c67
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OL;O;6.5c;42
+T_opt1
+Z7 VoidjiPbiS?;I^c8KDWK243
+Z8 04 6 8 work tb_dff behavior 1
+Z9 =1--542381f5-ba4da-1eb5
+R4
+Z10 n@_opt1
+R6
+Parray_port
+Z11 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z12 w1411611491
+Z13 8array_port.vhd
+Z14 Farray_port.vhd
+l0
+L4
+Z15 V@SYB[iV<M[>@E_j>@jY;i2
+Z16 OL;C;6.5c;42
+32
+Z17 Mx1 4 ieee 14 std_logic_1164
+Z18 o-work work
+Z19 tExplicit 1
+Z20 !s100 i4Z@Edm=89oPiI?gPVUaG0
+Edff
+Z21 w1282148150
+R11
+Z22 8dff.vhd
+Z23 Fdff.vhd
+l0
+L21
+Z24 VMa;f0KR]B@[ZE5zJaAojY0
+R16
+32
+R18
+R19
+Z25 !s100 VzHYe^Oj9?z_PmManRSFF2
+Amixed
+R11
+Z26 DEx4 work 3 dff 0 22 Ma;f0KR]B@[ZE5zJaAojY0
+l35
+L31
+Z27 V_Z^;3Gef@5MiP2oGPHeCc3
+R16
+32
+R17
+R18
+R19
+Z28 !s100 SMjUE1B?1Uc2eOI4WCI[63
+Ereg
+Z29 w1411612904
+Z30 DPx4 work 10 array_port 0 22 @SYB[iV<M[>@E_j>@jY;i2
+R11
+Z31 8reg.vhd
+Z32 Freg.vhd
+l0
+L5
+Z33 VV9Nk`7TXfQO[N^1Pi:3Uj3
+R16
+32
+R18
+R19
+Z34 !s100 10n=C?U:2^iaEGLF7[`;L3
+Astructure
+R30
+R11
+Z35 DEx4 work 3 reg 0 22 V9Nk`7TXfQO[N^1Pi:3Uj3
+l27
+L15
+Z36 V=bSF;VEomFi7AcXTa7kmV1
+R16
+32
+Z37 Mx2 4 ieee 14 std_logic_1164
+Z38 Mx1 4 work 10 array_port
+R18
+R19
+Z39 !s100 CzDF<?T?Gl<aZ@OmNNHH]2
+Etb_dff
+R21
+Z40 DPx17 __model_tech/ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+Z41 8tb_dff.vhd
+Z42 Ftb_dff.vhd
+l0
+L21
+Z43 VWM;2d:M[E?HRE2;k6n3Pg3
+R16
+R18
+R19
+Z44 !s100 2?bfmc^@[>n7Qc^i4jRzQ0
+Abehavior
+DEx32 /home/averma/cpre381/Lab-03/work 3 dff 0 22 Ma;f0KR]B@[ZE5zJaAojY0
+R40
+DEx32 /home/averma/cpre381/Lab-03/work 6 tb_dff 0 22 WM;2d:M[E?HRE2;k6n3Pg3
+32
+Mx1 17 __model_tech/ieee 14 std_logic_1164
+l43
+L25
+Z45 VLAVmA1Ve1amW0W8gQHb4c3
+R16
+R18
+R19
+Z46 !s100 URzU<]mo>C:@daE<Q09jf3
